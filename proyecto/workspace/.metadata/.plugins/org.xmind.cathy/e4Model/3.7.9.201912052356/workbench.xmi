@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ZcPHQZAxEe2L3aOYNw4LfQ" elementId="org.xmind.cathy.application" contributorURI="platform:/plugin/org.xmind.cathy" selectedElement="_ZcPHQpAxEe2L3aOYNw4LfQ" bindingContexts="_ZcPHaJAxEe2L3aOYNw4LfQ">
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList/>&#xD;&#xA;&lt;/workbench>"/>
+  <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
+  <tags>ModelMigrationProcessor.001</tags>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_ZcPHQpAxEe2L3aOYNw4LfQ" elementId="org.xmind.cathy.window.main" contributorURI="platform:/plugin/org.xmind.cathy" selectedElement="_ZnDQIZAxEe2L3aOYNw4LfQ" label="XMind" x="128" y="128" width="1024" height="768">
+    <persistedState key="coolBarVisible" value="true"/>
+    <persistedState key="perspectiveBarVisible" value="true"/>
+    <persistedState key="isRestored" value="true"/>
+    <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
+    <persistedState key="aggregateWorkingSetId"/>
+    <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
+    <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_ZnDQIZAxEe2L3aOYNw4LfQ" selectedElement="_ZnDQIpAxEe2L3aOYNw4LfQ" horizontal="true">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_ZnDQIpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_ZotdApAxEe2L3aOYNw4LfQ">
+        <children xsi:type="advanced:Perspective" xmi:id="_ZotdApAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.perspective.mindmapping" selectedElement="_ZotdA5AxEe2L3aOYNw4LfQ" label="Dibujar mapa" iconURI="platform:/plugin/org.xmind.ui/icons/xmind.16.png">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_ZotdA5AxEe2L3aOYNw4LfQ" horizontal="true">
+            <children xsi:type="advanced:Placeholder" xmi:id="_ZotdBJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.editorss" containerData="10000" ref="_ZotdAJAxEe2L3aOYNw4LfQ"/>
+            <children xsi:type="basic:PartStack" xmi:id="_ZotdBZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.stack.right" toBeRendered="false" visible="false" containerData="0">
+              <tags>XStack</tags>
+              <tags>active</tags>
+              <children xsi:type="basic:Part" xmi:id="_35yVMJA5Ee2L3aOYNw4LfQ" elementId="org.xmind.ui.modelPart.taskinfo" contributorURI="platform:/plugin/org.xmind.ui.taskinfo" toBeRendered="false" visible="false" contributionURI="bundleclass://org.xmind.ui.taskinfo/org.xmind.ui.internal.taskinfo.e4.model.TaskInfoPart" label="%partdescriptor.label.taskinfo" tooltip="%partdescriptor.tooltip.taskinfo"/>
+              <children xsi:type="basic:Part" xmi:id="_45SDUJA5Ee2L3aOYNw4LfQ" elementId="org.xmind.ui.modelPart.comments" contributorURI="platform:/plugin/org.xmind.ui.mindmap" toBeRendered="false" visible="false" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4models.CommentsPart" label="%part.comments.label" tooltip="%part.comments.tooltip"/>
+              <children xsi:type="basic:Part" xmi:id="_5JC9oJA5Ee2L3aOYNw4LfQ" elementId="org.xmind.ui.modelPart.notes" contributorURI="platform:/plugin/org.xmind.ui.mindmap" toBeRendered="false" visible="false" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4models.NotesPart" label="%part.notes.label" tooltip="%part.notes.tooltip">
+                <tags>activeOnClose</tags>
+                <tags>active</tags>
+              </children>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_ZnDQI5AxEe2L3aOYNw4LfQ" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
+        <children xsi:type="advanced:Placeholder" xmi:id="_ZnDQJJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_ZnDQIJAxEe2L3aOYNw4LfQ"/>
+      </children>
+    </children>
+    <windows xsi:type="basic:Dialog" xmi:id="_ZdedYJAxEe2L3aOYNw4LfQ" elementId="DIALOG:org.eclipse.ui.views.ProgressView" contributorURI="platform:/plugin/org.xmind.ui.mindmap" toBeRendered="false" label="%part.progress.label" x="0" y="0" width="440" height="337">
+      <persistedState key="styleOverride"/>
+      <persistedState key="org.xmind.ui.dialogPart.customLocation" value=",,440,337"/>
+      <children xsi:type="basic:PartStack" xmi:id="_ZdedYZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.stack.progress" selectedElement="_ZdedYpAxEe2L3aOYNw4LfQ">
+        <tags>XStack</tags>
+        <children xsi:type="basic:Part" xmi:id="_ZdedYpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.views.ProgressView" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.dialogs.ProgressDialogPart"/>
+      </children>
+    </windows>
+    <sharedElements xsi:type="basic:Part" xmi:id="_ZnDQIJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.internal.introview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bienvenida" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.ViewIntroAdapterPart"/>
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+    </sharedElements>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_ZotdAJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.editorss" selectedElement="_ZotdAZAxEe2L3aOYNw4LfQ">
+      <children xsi:type="basic:PartStack" xmi:id="_ZotdAZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.e4.primaryDataStack" containerData="10000">
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>EditorStack</tags>
+      </children>
+    </sharedElements>
+    <trimBars xmi:id="_ZcPHQ5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.xmind.cathy">
+      <children xsi:type="menu:ToolBar" xmi:id="_ZcPHRJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.toolbar.dashboard" contributorURI="platform:/plugin/org.xmind.cathy">
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHRZAxEe2L3aOYNw4LfQ" elementId="start" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHRpAxEe2L3aOYNw4LfQ" elementId="additions" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHR5AxEe2L3aOYNw4LfQ" elementId="end" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ZcPHSJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.toolbar.edit" contributorURI="platform:/plugin/org.xmind.cathy" visible="false">
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHSZAxEe2L3aOYNw4LfQ" elementId="start" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHSpAxEe2L3aOYNw4LfQ" elementId="additions" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHS5AxEe2L3aOYNw4LfQ" elementId="end" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_A8W6sEVtEeWqKcBDsQEnrw" elementId="org.xmind.ui.toolbar.mindmap" contributorURI="platform:/plugin/org.xmind.ui.menus">
+        <children xsi:type="menu:DirectToolItem" xmi:id="_Epx1UEY2EeWIUIBrCUBfAw" elementId="org.xmind.ui.toolbar.mindmap.topic" contributorURI="platform:/plugin/org.xmind.ui.menus" label="%toolbar.topic.label" iconURI="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/topic.png" tooltip="%toolbar.topic.tooltip" contributionURI="bundleclass://org.xmind.ui.toolkit/org.xmind.ui.internal.e4handlers.ShowPullDownMenuToolItem">
+          <menu xmi:id="_Epx1UUY2EeWIUIBrCUBfAw" elementId="org.xmind.ui.toolbar.mindmap.topic.menu" contributorURI="platform:/plugin/org.xmind.ui.menus">
+            <children xsi:type="menu:MenuSeparator" xmi:id="_Epx1UkY2EeWIUIBrCUBfAw" elementId="start" contributorURI="platform:/plugin/org.xmind.ui.menus" visible="false"/>
+            <children xsi:type="menu:MenuSeparator" xmi:id="_Epx1U0Y2EeWIUIBrCUBfAw" elementId="additions" contributorURI="platform:/plugin/org.xmind.ui.menus" visible="false"/>
+            <children xsi:type="menu:MenuSeparator" xmi:id="_Epx1VEY2EeWIUIBrCUBfAw" elementId="end" contributorURI="platform:/plugin/org.xmind.ui.menus" visible="false"/>
+          </menu>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_BNaDACuFEeW589Z25pk4Ag" elementId="org.xmind.ui.toolbar.mindmap.insert" contributorURI="platform:/plugin/org.xmind.ui.menus" label="%toolbar.insert.label" iconURI="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/insert.png" tooltip="%toolbar.insert.tooltip" contributionURI="bundleclass://org.xmind.ui.toolkit/org.xmind.ui.internal.e4handlers.ShowPullDownMenuToolItem">
+          <menu xmi:id="_Ppi8cCuFEeW589Z25pk4Ag" elementId="org.xmind.ui.toolbar.mindmap.insert.menu" contributorURI="platform:/plugin/org.xmind.ui.menus">
+            <children xsi:type="menu:MenuSeparator" xmi:id="_TfPxoEVuEeWqKcBDsQEnrw" elementId="start" contributorURI="platform:/plugin/org.xmind.ui.menus" visible="false"/>
+            <children xsi:type="menu:MenuSeparator" xmi:id="_ThLEQEVuEeWqKcBDsQEnrw" elementId="additions" contributorURI="platform:/plugin/org.xmind.ui.menus" visible="false"/>
+            <children xsi:type="menu:MenuSeparator" xmi:id="_TjFIwEVuEeWqKcBDsQEnrw" elementId="end" contributorURI="platform:/plugin/org.xmind.ui.menus" visible="false"/>
+          </menu>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ZcPHTJAxEe2L3aOYNw4LfQ" elementId="additions" contributorURI="platform:/plugin/org.xmind.cathy" toBeRendered="false" visible="false">
+        <tags>toolbarSeparator</tags>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZoFx8pAxEe2L3aOYNw4LfQ" elementId="additions" toBeRendered="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_Zu_EIJAxEe2L3aOYNw4LfQ" elementId="group.editor" toBeRendered="false">
+        <tags>toolbarSeparator</tags>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_Zu_EIZAxEe2L3aOYNw4LfQ" elementId="group.editor" toBeRendered="false"/>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ZcPHTpAxEe2L3aOYNw4LfQ" elementId="PerspectiveSpacer" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+        <tags>stretch</tags>
+        <tags>SHOW_RESTORE_MENU</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_QrzOwABcEeandKuYdHFr7Q" elementId="org.xmind.ui.toolbar.advanced" contributorURI="platform:/plugin/org.xmind.ui.menus.pro">
+        <children xsi:type="menu:DirectToolItem" xmi:id="_OWU6QABeEeandKuYdHFr7Q" elementId="org.xmind.ui.toolbar.advanced.presentation" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" label="%toolbar.advanced.presentation.label" iconURI="platform:/plugin/org.xmind.ui.menus.pro/icons/toolbar/e/presentation.png" tooltip="%toolbar.advanced.presentation.tooltip" contributionURI="bundleclass://org.xmind.ui.presentation/org.xmind.ui.internal.e4handlers.ShowPresentationMenu">
+          <menu xmi:id="_O-7LUABeEeandKuYdHFr7Q" elementId="org.xmind.ui.toolbar.advanced.presentation.menu" contributorURI="platform:/plugin/org.xmind.ui.menus.pro">
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_fLjUsACPEeaVscD3FeymkQ" elementId="org.xmind.ui.toolbar.advanced.presentation.menu.walkthrough" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" label="%toolbar.advanced.presentation.walkthrough.label" command="_aFkFkAB_EeandKuYdHFr7Q"/>
+            <children xsi:type="menu:MenuSeparator" xmi:id="_N2BzUACPEeaVscD3FeymkQ" elementId="start" contributorURI="platform:/plugin/org.xmind.ui.menus.pro"/>
+            <children xsi:type="menu:DynamicMenuContribution" xmi:id="_QDSyYABeEeandKuYdHFr7Q" elementId="org.xmind.ui.toolbar.advanced.presentation.menu.stories" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" contributionURI="bundleclass://org.xmind.ui.presentation/org.xmind.ui.internal.presentation.slide.StoryMenu"/>
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_OyipcACQEeaVscD3FeymkQ" elementId="org.xmind.ui.toolbar.advanced.presentation.menu.newstory" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" label="%toolbar.advanced.presentation.newstory.label" command="_DoiZsACREeaVscD3FeymkQ"/>
+          </menu>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ZcPHT5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.toolbar.export" contributorURI="platform:/plugin/org.xmind.cathy">
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHUJAxEe2L3aOYNw4LfQ" elementId="start" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_ZcPHUZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.toolbar.export.export" contributorURI="platform:/plugin/org.xmind.cathy" label="%toolbar.export.label" iconURI="platform:/plugin/org.xmind.cathy/icons/toolbar/e/export.png" tooltip="%toolbar.export.tooltip" contributionURI="bundleclass://org.xmind.ui.toolkit/org.xmind.ui.internal.e4handlers.ShowPullDownMenuToolItem">
+          <menu xmi:id="_ZcPHUpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.toolbar.export.export.menu" contributorURI="platform:/plugin/org.xmind.cathy">
+            <children xsi:type="menu:MenuSeparator" xmi:id="_ZcPHU5AxEe2L3aOYNw4LfQ" elementId="start" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+            <children xsi:type="menu:MenuSeparator" xmi:id="_ZcPHVJAxEe2L3aOYNw4LfQ" elementId="additions" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+            <children xsi:type="menu:MenuSeparator" xmi:id="_ZcPHVZAxEe2L3aOYNw4LfQ" elementId="group.more" contributorURI="platform:/plugin/org.xmind.cathy"/>
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_ZcPHVpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.toolbar.export.export.menu.more" contributorURI="platform:/plugin/org.xmind.cathy" label="%toolbar.export.more.label" tooltip="%toolbar.export.more.tooltip" command="_ZcPHbpAxEe2L3aOYNw4LfQ"/>
+            <children xsi:type="menu:MenuSeparator" xmi:id="_ZcPHV5AxEe2L3aOYNw4LfQ" elementId="end" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+          </menu>
+        </children>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHWJAxEe2L3aOYNw4LfQ" elementId="additions" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHWZAxEe2L3aOYNw4LfQ" elementId="end" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ZcPHWpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.toolbar.perspective" contributorURI="platform:/plugin/org.xmind.cathy">
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHW5AxEe2L3aOYNw4LfQ" elementId="start" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHXJAxEe2L3aOYNw4LfQ" elementId="additions" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_ZcPHXZAxEe2L3aOYNw4LfQ" elementId="end" contributorURI="platform:/plugin/org.xmind.cathy" visible="false"/>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_ZcPHXpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.trim.status" contributorURI="platform:/plugin/org.xmind.cathy" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_ZcPHX5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.StatusLine" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
+        <tags>stretch</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_ZcPHYJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.HeapStatus" contributorURI="platform:/plugin/org.xmind.cathy" toBeRendered="false" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_ZcPHYZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.ProgressBar" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_ZcPHYpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.toolcontrol.autobackup" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.xmind.cathy/org.xmind.cathy.internal.AutoBackupIndicatorToolControl"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_ZcPHY5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.toolcontrol.sharingservicestatus" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.xmind.ui.sharing/org.xmind.ui.internal.sharing.SharingServiceStatusToolControl"/>
+    </trimBars>
+    <trimBars xmi:id="_ZcPHZJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.trimbar.right" contributorURI="platform:/plugin/org.xmind.cathy" side="Right">
+      <children xsi:type="menu:ToolBar" xmi:id="_ZcPHZZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.rightTrimBar.toolbar.begining" contributorURI="platform:/plugin/org.xmind.cathy">
+        <tags>TrimBarLayout:begining</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_I2b_4ENWEeaUkq_67huL6g" elementId="org.xmind.ui.menus.handledtoolitem.outline" contributorURI="platform:/plugin/org.xmind.ui.menus" label="%handledtoolitem.label.outline" iconURI="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_outline.png" tooltip="%handledtoolitem.tooltip.outline" enabled="false" command="_Se3CwENCEeaUAPB93OC16w">
+          <persistedState key="unselectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_outline.png"/>
+          <persistedState key="selectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_outline_selected.png"/>
+          <parameters xmi:id="_YV_eIENWEeaUkq_67huL6g" elementId="org.xmind.ui.rightTrimBar.cp.partId.outline" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partId" value="org.xmind.ui.modelPart.outline"/>
+          <parameters xmi:id="_gLgo4ENWEeaUkq_67huL6g" elementId="org.xmind.ui.rightTrimBar.cp.partStackId.outline" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partStackId" value="org.xmind.ui.stack.right"/>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yB4ScEPjEeaDWL8gD_vEUA" elementId="org.xmind.ui.menus.handledtoolitem.peoperties" contributorURI="platform:/plugin/org.xmind.ui.menus" label="%handledtoolitem.label.format" iconURI="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_properties.png" tooltip="%handledtoolitem.tooltip.format" enabled="false" command="_Se3CwENCEeaUAPB93OC16w">
+          <persistedState key="unselectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_properties.png"/>
+          <persistedState key="selectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_properties_selected.png"/>
+          <parameters xmi:id="_yB4ScUPjEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partId.peoperties" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partId" value="org.xmind.ui.modelPart.properties"/>
+          <parameters xmi:id="_yB4SckPjEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partStackId.properties" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partStackId" value="org.xmind.ui.stack.right"/>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_HS9DYEPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.menus.handledtoolitem.image" contributorURI="platform:/plugin/org.xmind.ui.menus" label="%handledtoolitem.label.image" iconURI="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_image.png" tooltip="%handledtoolitem.tooltip.image" enabled="false" command="_Se3CwENCEeaUAPB93OC16w">
+          <persistedState key="unselectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_image.png"/>
+          <persistedState key="selectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_image_selected.png"/>
+          <parameters xmi:id="_HS9DYUPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partId.image" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partId" value="org.xmind.ui.modelPart.image"/>
+          <parameters xmi:id="_HS9DYkPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partStackId.image" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partStackId" value="org.xmind.ui.stack.right"/>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9o3k8JsdEeaWM9softeOMA" elementId="org.xmind.ui.menus.handledtoolitem.marker" contributorURI="platform:/plugin/org.xmind.ui.menus" label="%handledtoolitem.label.marker" iconURI="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_markers.png" tooltip="%handledtoolitem.tooltip.marker" enabled="false" command="_Se3CwENCEeaUAPB93OC16w">
+          <persistedState key="unselectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_markers.png"/>
+          <persistedState key="selectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_markers_selected.png"/>
+          <parameters xmi:id="_Oia8AJseEeaWM9softeOMA" elementId="org.xmind.ui.menus.parameter.marker" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partId" value="org.xmind.ui.modelPart.markers"/>
+          <parameters xmi:id="_PD0Y4JseEeaWM9softeOMA" elementId="org.xmind.ui.rightTrimBar.cp.partStackId.marker" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partStackId" value="org.xmind.ui.stack.right"/>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_HfWgoEPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.menus.handledtoolitem.theme" contributorURI="platform:/plugin/org.xmind.ui.menus" label="%handledtoolitem.label.themes" iconURI="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_themes.png" tooltip="%handledtoolitem.tooltip.themes" enabled="false" command="_Se3CwENCEeaUAPB93OC16w">
+          <persistedState key="unselectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_themes.png"/>
+          <persistedState key="selectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_themes_selected.png"/>
+          <parameters xmi:id="_HfXHsEPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partId.theme" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partId" value="org.xmind.ui.modelPart.themes"/>
+          <parameters xmi:id="_HfXHsUPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partStackId.theme" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partStackId" value="org.xmind.ui.stack.right"/>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_HjcWcEPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.menus.handledtoolitem.notes" contributorURI="platform:/plugin/org.xmind.ui.menus" label="%handledtoolitem.label.notes" iconURI="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_notes.png" tooltip="%handledtoolitem.tooltip.notes" enabled="false" command="_Se3CwENCEeaUAPB93OC16w">
+          <persistedState key="unselectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_notes.png"/>
+          <persistedState key="selectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_notes_selected.png"/>
+          <parameters xmi:id="_HjcWcUPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partId.notes" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partId" value="org.xmind.ui.modelPart.notes"/>
+          <parameters xmi:id="_HjcWckPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partStackId.notes" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partStackId" value="org.xmind.ui.stack.right"/>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="__defcEPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.menus.handledtoolitem.comment" contributorURI="platform:/plugin/org.xmind.ui.menus" label="%handledtoolitem.label.comments" iconURI="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_comments.png" tooltip="%handledtoolitem.tooltip.comments" enabled="false" command="_Se3CwENCEeaUAPB93OC16w">
+          <persistedState key="unselectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_comments.png"/>
+          <persistedState key="selectedIconURI" value="platform:/plugin/org.xmind.ui.menus/icons/toolbar/e/sidebar_comments_selected.png"/>
+          <parameters xmi:id="__defcUPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partId.comment" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partId" value="org.xmind.ui.modelPart.comments"/>
+          <parameters xmi:id="__defckPkEeaDWL8gD_vEUA" elementId="org.xmind.ui.rightTrimBar.cp.partStackId.comment" contributorURI="platform:/plugin/org.xmind.ui.menus" name="org.xmind.ui.commandParameter.modelPart.partStackId" value="org.xmind.ui.stack.right"/>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_VKQs0FMLEeacQb78DaYDYw" elementId="org.xmind.ui.menus.pro.handledtoolitem.taskinfo" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" label="%handledtoolitem.label.taskinfo" iconURI="platform:/plugin/org.xmind.ui.menus.pro/icons/toolbar/e/sidebar_taskinfo.png" tooltip="%handledtoolitem.tooltip.taskinfo" enabled="false" command="_Se3CwENCEeaUAPB93OC16w">
+          <persistedState key="unselectedIconURI" value="platform:/plugin/org.xmind.ui.menus.pro/icons/toolbar/e/sidebar_taskinfo.png"/>
+          <persistedState key="selectedIconURI" value="platform:/plugin/org.xmind.ui.menus.pro/icons/toolbar/e/sidebar_taskinfo_selected.png"/>
+          <parameters xmi:id="_YQ_0QFMLEeacQb78DaYDYw" elementId="org.xmind.ui.rightTrimBar.cp.partId.taskinfo" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" name="org.xmind.ui.commandParameter.modelPart.partId" value="org.xmind.ui.modelPart.taskinfo"/>
+          <parameters xmi:id="_YqU6QFMLEeacQb78DaYDYw" elementId="org.xmind.ui.rightTrimBar.cp.partStackId.taskinfo" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" name="org.xmind.ui.commandParameter.modelPart.partStackId" value="org.xmind.ui.stack.right"/>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ZcPHZpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.rightTrimBar.toolbar.center" contributorURI="platform:/plugin/org.xmind.cathy">
+        <tags>TrimBarLayout:center</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_ZcPHZ5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.rightTrimBar.toolbar.end" contributorURI="platform:/plugin/org.xmind.cathy">
+        <tags>TrimBarLayout:end</tags>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_ZoQxEJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.trim.vertical1" side="Left"/>
+  </children>
+  <handlers xmi:id="_jztz0BHAEeav9rHpAOC_nw" elementId="org.xmind.ui.handler.showDialogPart" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.DialogPartHandler" command="_KIsnIBHAEeav9rHpAOC_nw"/>
+  <handlers xmi:id="_yiYCkENCEeaUAPB93OC16w" elementId="org.xmind.ui.handler.toggleModelPart" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.ToggleModelPartHandler" command="_Se3CwENCEeaUAPB93OC16w"/>
+  <handlers xmi:id="_dSUB0FI2EeajQ9IgtnhU8w" elementId="org.xmind.ui.handler.showModelPart" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.ModelPartHandler" command="_O1o84FI2EeajQ9IgtnhU8w"/>
+  <handlers xmi:id="_ndab4F7DEea4TLoMFJLcRQ" elementId="org.xmind.ui.handler.setThemeDefault" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.SetDefaultThemeHandler" command="_ldPXEF7HEeaQJfiZMX61eg"/>
+  <handlers xmi:id="_7rpfsF7XEeaQJfiZMX61eg" elementId="org.xmind.ui.handler.renameResource" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.RenameResourceHandler" command="_8hT8YF7XEeaQJfiZMX61eg"/>
+  <handlers xmi:id="_qJ04oF7gEeaQJfiZMX61eg" elementId="org.xmind.ui.handler.deleteResource" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.DeleteResourceHandler" command="_kdF_UF7gEeaQJfiZMX61eg"/>
+  <handlers xmi:id="_CXPe4F7hEeaQJfiZMX61eg" elementId="org.xmind.ui.handler.editResource" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.EditResourceHandler" command="_9UsLAF7gEeaQJfiZMX61eg"/>
+  <handlers xmi:id="_WobgIF7hEeaQJfiZMX61eg" elementId="org.xmind.ui.handler.duplicateResource" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.DuplicateResourceHandler" command="_R2MgMF7hEeaQJfiZMX61eg"/>
+  <handlers xmi:id="_1SFO0ICzEeak_br5gl15Ow" elementId="org.xmind.ui.handler.showPopover" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.OpenPopoverHandler" command="_xIgxYICzEeak_br5gl15Ow"/>
+  <handlers xmi:id="_FWbrgJv4Eea2BOBr6Kczag" elementId="org.xmind.ui.handler.openCloseModelPart" contributorURI="platform:/plugin/org.xmind.ui.mindmap" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4handlers.ToggleModelPartHandler" command="_BGKJIJv4Eea2BOBr6Kczag"/>
+  <handlers xmi:id="_mNdxYHlmEeawEIHJWLyH7A" elementId="org.xmind.ui.handler.showProDialogPart" contributorURI="platform:/plugin/net.xmind.verify" contributionURI="bundleclass://net.xmind.verify/net.xmind.verify.ui.internal.e4models.ShowProDialogPartHandler" command="_buAI4HlmEeawEIHJWLyH7A"/>
+  <handlers xmi:id="_om0vkAB_EeandKuYdHFr7Q" elementId="org.xmind.ui.menu.pro.handler.presentation.walkthrough" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" contributionURI="bundleclass://org.xmind.ui.presentation/org.xmind.ui.internal.presentation.PresentationWalkThroughModeHandler" command="_aFkFkAB_EeandKuYdHFr7Q"/>
+  <handlers xmi:id="_I6KrYACREeaVscD3FeymkQ" elementId="org.xmind.ui.menu.pro.handler.presentation.newstory" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" contributionURI="bundleclass://org.xmind.ui.presentation/org.xmind.ui.internal.presentation.slide.NewStoryHandler" command="_DoiZsACREeaVscD3FeymkQ"/>
+  <bindingTables xmi:id="_Zc2yUJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" bindingContext="_ZcPHaJAxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2yUZAxEe2L3aOYNw4LfQ" keySequence="CTRL+Y" command="_ZciqQ5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yaJAxEe2L3aOYNw4LfQ" keySequence="CTRL+F10" command="_Zcip2JAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yeJAxEe2L3aOYNw4LfQ" keySequence="CTRL+Z" command="_Zcipp5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yopAxEe2L3aOYNw4LfQ" keySequence="CTRL+X" command="_ZciprpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ypJAxEe2L3aOYNw4LfQ" keySequence="CTRL+INSERT" command="_ZcipZ5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yuJAxEe2L3aOYNw4LfQ" keySequence="CTRL+C" command="_ZcipZ5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yvpAxEe2L3aOYNw4LfQ" keySequence="CTRL+V" command="_Zcipr5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yv5AxEe2L3aOYNw4LfQ" keySequence="CTRL+A" command="_ZciqGZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ywJAxEe2L3aOYNw4LfQ" keySequence="ALT+PAGE_DOWN" command="_ZciqKZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yxpAxEe2L3aOYNw4LfQ" keySequence="SHIFT+INSERT" command="_Zcipr5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yy5AxEe2L3aOYNw4LfQ" keySequence="ALT+PAGE_UP" command="_ZciqVZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2y0pAxEe2L3aOYNw4LfQ" keySequence="SHIFT+DEL" command="_ZciprpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2y05AxEe2L3aOYNw4LfQ" keySequence="CTRL+SPACE" command="_ZciphZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2y1pAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+SPACE" command="_ZcipapAxEe2L3aOYNw4LfQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2yUpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.mindmap" bindingContext="_ZcsaR5AxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2yU5AxEe2L3aOYNw4LfQ" keySequence="CTRL+-" command="_ZciqPJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ybZAxEe2L3aOYNw4LfQ" keySequence="F6" command="_Zcip-ZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ycZAxEe2L3aOYNw4LfQ" keySequence="CTRL++" command="_ZcipXJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ydpAxEe2L3aOYNw4LfQ" keySequence="CTRL+0" command="_ZciqHJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yeZAxEe2L3aOYNw4LfQ" keySequence="SHIFT+F6" command="_ZcippJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ykpAxEe2L3aOYNw4LfQ" keySequence="F7" command="_Zcipc5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ylJAxEe2L3aOYNw4LfQ" keySequence="F5" command="_ZciqYpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ynpAxEe2L3aOYNw4LfQ" keySequence="F8" command="_ZcipqZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yypAxEe2L3aOYNw4LfQ" keySequence="CTRL+HOME" command="_ZcipbJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yzpAxEe2L3aOYNw4LfQ" keySequence="ALT+CTRL+A" command="_Zcip4pAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2y0JAxEe2L3aOYNw4LfQ" keySequence="CTRL+=" command="_ZcipXJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2y1JAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+A" command="_ZciqK5AxEe2L3aOYNw4LfQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2yVJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.contexts.window" bindingContext="_ZcPHaZAxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2yVZAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+F7" command="_ZciqFpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yVpAxEe2L3aOYNw4LfQ" keySequence="CTRL+W" command="_ZciqS5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yV5AxEe2L3aOYNw4LfQ" keySequence="CTRL+," command="_Zcips5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yWJAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+F8" command="_ZcipcJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yW5AxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+N" command="_Zciqa5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yZ5AxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+F4" command="_ZciprJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yaZAxEe2L3aOYNw4LfQ" keySequence="CTRL+M" command="_ZcipfJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ya5AxEe2L3aOYNw4LfQ" keySequence="CTRL+F4" command="_ZciqS5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ybJAxEe2L3aOYNw4LfQ" keySequence="CTRL+S" command="_Zcip75AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ycpAxEe2L3aOYNw4LfQ" keySequence="CTRL+{" command="_ZcipcZAxEe2L3aOYNw4LfQ">
+      <parameters xmi:id="_Zc2yc5AxEe2L3aOYNw4LfQ" elementId="Splitter.isHorizontal" name="Splitter.isHorizontal" value="false"/>
+    </bindings>
+    <bindings xmi:id="_Zc2yd5AxEe2L3aOYNw4LfQ" keySequence="ALT+SHIFT+F7" command="_ZciqNJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yhJAxEe2L3aOYNw4LfQ" keySequence="F12" command="_ZcipiJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yhZAxEe2L3aOYNw4LfQ" keySequence="DEL" command="_ZciqB5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yk5AxEe2L3aOYNw4LfQ" keySequence="F5" command="_Zcip3ZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ylZAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+S" command="_Zcip65AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ylpAxEe2L3aOYNw4LfQ" keySequence="CTRL+P" command="_Zcipv5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yl5AxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_ZcipeJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ymJAxEe2L3aOYNw4LfQ" keySequence="CTRL+F7" command="_ZcipaZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ymZAxEe2L3aOYNw4LfQ" keySequence="CTRL+O" command="_ZcipepAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yn5AxEe2L3aOYNw4LfQ" keySequence="ALT+-" command="_ZcipiZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yoJAxEe2L3aOYNw4LfQ" keySequence="CTRL+F8" command="_ZciqaJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yoZAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+W" command="_ZciprJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yo5AxEe2L3aOYNw4LfQ" keySequence="CTRL+F6" command="_ZciqA5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yqJAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+NUMPAD_MULTIPLY" command="_Zcip6pAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yqZAxEe2L3aOYNw4LfQ" keySequence="CTRL+N" command="_ZciqSJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yqpAxEe2L3aOYNw4LfQ" keySequence="ALT+CTRL+N" command="_Zcip5JAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yrJAxEe2L3aOYNw4LfQ" keySequence="ALT+F7" command="_ZcipsJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yrZAxEe2L3aOYNw4LfQ" keySequence="CTRL+." command="_ZciqN5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yrpAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+M" command="_BGKJIJv4Eea2BOBr6Kczag"/>
+    <bindings xmi:id="_Zc2yr5AxEe2L3aOYNw4LfQ" keySequence="F2" command="_ZciptZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ysZAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+L" command="_Zcip7JAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yspAxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+F6" command="_Zcip-JAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yw5AxEe2L3aOYNw4LfQ" keySequence="CTRL+SHIFT+E" command="_ZciqJpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yxJAxEe2L3aOYNw4LfQ" keySequence="CTRL+E" command="_ZcipmpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yxZAxEe2L3aOYNw4LfQ" keySequence="CTRL+F" command="_Zcip_JAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yzJAxEe2L3aOYNw4LfQ" keySequence="CTRL+_" command="_ZcipcZAxEe2L3aOYNw4LfQ">
+      <parameters xmi:id="_Zc2yzZAxEe2L3aOYNw4LfQ" elementId="Splitter.isHorizontal" name="Splitter.isHorizontal" value="true"/>
+    </bindings>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2yWZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.mindmap.edit" bindingContext="_ZcsaS5AxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2yWpAxEe2L3aOYNw4LfQ" keySequence="F3" command="_Zcip15AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yXJAxEe2L3aOYNw4LfQ" keySequence="CTRL+L" command="_ZciqX5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yYZAxEe2L3aOYNw4LfQ" keySequence="TAB" command="_Zcipq5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yYpAxEe2L3aOYNw4LfQ" keySequence="SHIFT+CR" command="_ZciphJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yZZAxEe2L3aOYNw4LfQ" keySequence="CTRL+6" command="_ZcipwZAxEe2L3aOYNw4LfQ">
+      <parameters xmi:id="_Zc2yZpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.mindmap.markerId" name="org.xmind.ui.mindmap.markerId" value="priority-6"/>
+    </bindings>
+    <bindings xmi:id="_Zc2yapAxEe2L3aOYNw4LfQ" keySequence="-" command="_Zcip4JAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ybpAxEe2L3aOYNw4LfQ" keySequence="ALT+CR" command="_ZcipqJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yb5AxEe2L3aOYNw4LfQ" keySequence="CTRL+1" command="_ZcipwZAxEe2L3aOYNw4LfQ">
+      <parameters xmi:id="_Zc2ycJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.mindmap.markerId" name="org.xmind.ui.mindmap.markerId" value="priority-1"/>
+    </bindings>
+    <bindings xmi:id="_Zc2ydJAxEe2L3aOYNw4LfQ" keySequence="INSERT" command="_Zcipq5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ydZAxEe2L3aOYNw4LfQ" keySequence="ALT+CTRL+T" command="_ZciqIJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yepAxEe2L3aOYNw4LfQ" keySequence="CTRL+CR" command="_ZciqPZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ygZAxEe2L3aOYNw4LfQ" keySequence="*" command="_ZcipVZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ygpAxEe2L3aOYNw4LfQ" keySequence="F4" command="_ZcipzZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yiJAxEe2L3aOYNw4LfQ" keySequence="CTRL+2" command="_ZcipwZAxEe2L3aOYNw4LfQ">
+      <parameters xmi:id="_Zc2yiZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.mindmap.markerId" name="org.xmind.ui.mindmap.markerId" value="priority-2"/>
+    </bindings>
+    <bindings xmi:id="_Zc2yipAxEe2L3aOYNw4LfQ" keySequence="/" command="_ZciqKpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yi5AxEe2L3aOYNw4LfQ" keySequence="CTRL+3" command="_ZcipwZAxEe2L3aOYNw4LfQ">
+      <parameters xmi:id="_Zc2yjJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.mindmap.markerId" name="org.xmind.ui.mindmap.markerId" value="priority-3"/>
+    </bindings>
+    <bindings xmi:id="_Zc2yjZAxEe2L3aOYNw4LfQ" keySequence="CR" command="_ZcipV5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ykJAxEe2L3aOYNw4LfQ" keySequence="CTRL+T" command="_ZciqTZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ypZAxEe2L3aOYNw4LfQ" keySequence="CTRL+I" command="_ZciqDJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yq5AxEe2L3aOYNw4LfQ" keySequence="ALT+CTRL+N" command="_ZciqEZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ysJAxEe2L3aOYNw4LfQ" keySequence="F2" command="_ZciprZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ys5AxEe2L3aOYNw4LfQ" keySequence="CTRL+4" command="_ZcipwZAxEe2L3aOYNw4LfQ">
+      <parameters xmi:id="_Zc2ytJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.mindmap.markerId" name="org.xmind.ui.mindmap.markerId" value="priority-4"/>
+    </bindings>
+    <bindings xmi:id="_Zc2ytZAxEe2L3aOYNw4LfQ" keySequence="CTRL+5" command="_ZcipwZAxEe2L3aOYNw4LfQ">
+      <parameters xmi:id="_Zc2ytpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.mindmap.markerId" name="org.xmind.ui.mindmap.markerId" value="priority-5"/>
+    </bindings>
+    <bindings xmi:id="_Zc2yt5AxEe2L3aOYNw4LfQ" keySequence="+" command="_ZciqXpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yuZAxEe2L3aOYNw4LfQ" keySequence="ALT+ARROW_RIGHT" command="_ZciqYJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yupAxEe2L3aOYNw4LfQ" keySequence="CTRL+B" command="_ZcipipAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yvZAxEe2L3aOYNw4LfQ" keySequence="ALT+ARROW_LEFT" command="_Zcip_ZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yx5AxEe2L3aOYNw4LfQ" keySequence="SHIFT+TAB" command="_ZcipbpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yyZAxEe2L3aOYNw4LfQ" keySequence="CTRL+H" command="_ZciqHZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yz5AxEe2L3aOYNw4LfQ" keySequence="ALT+ARROW_UP" command="_Zcipk5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2y0ZAxEe2L3aOYNw4LfQ" keySequence="CTRL+]" command="_ZciqO5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2y1ZAxEe2L3aOYNw4LfQ" keySequence="ALT+ARROW_DOWN" command="_ZcipzJAxEe2L3aOYNw4LfQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2yXZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.notes.edit" bindingContext="_ZcsaQZAxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2yXpAxEe2L3aOYNw4LfQ" keySequence="CTRL+L" command="_Zcip6ZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yY5AxEe2L3aOYNw4LfQ" keySequence="CTRL+R" command="_Zcip05AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yfpAxEe2L3aOYNw4LfQ" keySequence="CTRL+CR" command="_ZcipY5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ykZAxEe2L3aOYNw4LfQ" keySequence="CTRL+T" command="_ZciqVpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ympAxEe2L3aOYNw4LfQ" keySequence="CTRL+U" command="_ZcipVpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yppAxEe2L3aOYNw4LfQ" keySequence="CTRL+I" command="_ZciqLJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yu5AxEe2L3aOYNw4LfQ" keySequence="CTRL+B" command="_ZciqMZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ywZAxEe2L3aOYNw4LfQ" keySequence="CTRL+D" command="_Zcipj5AxEe2L3aOYNw4LfQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2yX5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.notesPopup" bindingContext="_ZcsaRZAxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2yYJAxEe2L3aOYNw4LfQ" keySequence="CTRL+L" command="_Zcip6ZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yZJAxEe2L3aOYNw4LfQ" keySequence="CTRL+R" command="_Zcip05AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ye5AxEe2L3aOYNw4LfQ" keySequence="CTRL+CR" command="_ZcipY5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yg5AxEe2L3aOYNw4LfQ" keySequence="F4" command="_ZciqRJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ym5AxEe2L3aOYNw4LfQ" keySequence="CTRL+U" command="_ZcipVpAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yp5AxEe2L3aOYNw4LfQ" keySequence="CTRL+I" command="_ZciqLJAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yvJAxEe2L3aOYNw4LfQ" keySequence="CTRL+B" command="_ZciqMZAxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2ywpAxEe2L3aOYNw4LfQ" keySequence="CTRL+D" command="_Zcipj5AxEe2L3aOYNw4LfQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2yfJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.commentsPopup" bindingContext="_ZcsaQpAxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2yfZAxEe2L3aOYNw4LfQ" keySequence="CTRL+CR" command="_Zcipt5AxEe2L3aOYNw4LfQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2yf5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.comments.edit" bindingContext="_ZcsaUpAxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2ygJAxEe2L3aOYNw4LfQ" keySequence="CTRL+CR" command="_Zcipt5AxEe2L3aOYNw4LfQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2yhpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.brainstorm.edit" bindingContext="_ZcsaQJAxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2yh5AxEe2L3aOYNw4LfQ" keySequence="DEL" command="_ZciqB5AxEe2L3aOYNw4LfQ">
+      <tags>platform:win32</tags>
+    </bindings>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2yjpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.mindmap.traverse" bindingContext="_ZcsaSpAxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2yj5AxEe2L3aOYNw4LfQ" keySequence="CR" command="_ZciqC5AxEe2L3aOYNw4LfQ"/>
+    <bindings xmi:id="_Zc2yyJAxEe2L3aOYNw4LfQ" keySequence="SHIFT+TAB" command="_ZcipbpAxEe2L3aOYNw4LfQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_Zc2ynJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.contexts.dashboard" bindingContext="_ZcPHa5AxEe2L3aOYNw4LfQ">
+    <bindings xmi:id="_Zc2ynZAxEe2L3aOYNw4LfQ" keySequence="ESC" command="_ZciqLZAxEe2L3aOYNw4LfQ"/>
+  </bindingTables>
+  <rootContext xmi:id="_ZcPHaJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.xmind.cathy" name="En di&#xe1;logos y ventanas" description="Una ventana o di&#xe1;logo es abierto">
+    <children xmi:id="_ZcPHaZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.xmind.cathy" name="En ventanas" description="Una ventana es abierta">
+      <children xmi:id="_ZcPHapAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.textEditorScope" contributorURI="platform:/plugin/org.xmind.cathy" name="Contexto de edici&#xf3;n de texto" description="Contexto de edici&#xf3;n de texto"/>
+      <children xmi:id="_ZcPHa5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.contexts.dashboard" contributorURI="platform:/plugin/org.xmind.cathy" name="Interfaz de usuario visible"/>
+      <children xmi:id="_ZcsaQZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.notes.edit" name="En Vista de Notas" description="Editando las Notas"/>
+      <children xmi:id="_ZcsaR5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.mindmap" name="En el Editor de Mapa" description="Has abierto una hoja">
+        <children xmi:id="_ZcsaSJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.mapShot" name="Foto del mapa" description="Tomando una foto del mapa"/>
+        <children xmi:id="_ZcsaSZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.mindmap.textEdit" name="Editando texto en el Mapa Mental" description="Editando el texto que contiene el editor del mapa mental"/>
+        <children xmi:id="_ZcsaSpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.mindmap.traverse" name="Cruzar" description="Cruzar entre elementos"/>
+        <children xmi:id="_ZcsaS5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.mindmap.edit" name="Editando Mapa Mental" description="Edici&#xf3;n de T&#xed;tulo">
+          <children xmi:id="_ZcsaTJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.mindmap.pagetitle" name="Editando Mapa Mental" description="Edici&#xf3;n de T&#xed;tulo"/>
+        </children>
+        <children xmi:id="_ZcsaT5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.backcover" name="En la contraportada del editor de mapa mental" description="Mostrando contraportada del editor de mapa mental"/>
+      </children>
+      <children xmi:id="_ZcsaTZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.gantt.taskTreeEdit" name="Editar en Tareas" description="Editar en Tareas del Diagrama de Gantt"/>
+      <children xmi:id="_ZcsaTpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.gantt.edit" name="Editar en Vista Diagrama de Gantt" description="Editar en Diagrama de Gantt"/>
+      <children xmi:id="_ZcsaUpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.comments.edit" name="En Vista de Comentarios" description="Editar en vista de Comentarios"/>
+    </children>
+    <children xmi:id="_ZcPHbJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/org.xmind.cathy" name="En di&#xe1;logos" description="Un di&#xe1;logo es abierto">
+      <children xmi:id="_ZcsaQJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.brainstorm.edit" name="Iniciar la Luvia de ideas" description="Editar en modo Lluvia de ideas"/>
+      <children xmi:id="_ZcsaQpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.commentsPopup" name="En Popup de Dialogo" description="Modificar los comentarios en el cuadro de di&#xe1;logo"/>
+      <children xmi:id="_ZcsaRZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.notesPopup" name="Dialogo Animado en Notas" description="Modificando las notas en el cuadro de di&#xe1;logo"/>
+      <children xmi:id="_ZcsaRpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.editingStyle" name="Editar Estilo/Tema" description="Edici&#xf3;n de estilo o de tema"/>
+      <children xmi:id="_ZcsaUJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.presentation.story.edit" name="Iniciar presentaci&#xf3;n" description="Editar en Modo de Presentaci&#xf3;n">
+        <children xmi:id="_ZcsaUZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.presentation.slide.editing" name="Edici&#xf3;n de diapositivas en la Galer&#xed;a" description="Edici&#xf3;n de diapositivas en la galer&#xed;a"/>
+      </children>
+      <children xmi:id="_ZcsaU5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.context.presentation.edit" name="Iniciar una Presentaci&#xf3;n" description="Editar en Modo de Presentaci&#xf3;n"/>
+    </children>
+  </rootContext>
+  <rootContext xmi:id="_ZcsaQ5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.contexts.actionSet" name="Conjunto de acciones" description="Contexto padre para los conjuntos de acciones"/>
+  <rootContext xmi:id="_ZcsaRJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.contexts.workbenchMenu" name="Workbench Menu" description="When no Workbench windows are active"/>
+  <descriptors xmi:id="_PJGQ0BG-Eeav9rHpAOC_nw" elementId="org.xmind.ui.dialogPart.resourceManager" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.resourceManager.label" tooltip="%part.resourceManager.tooltip" allowMultiple="true" closeable="true" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.resourcemanager.ResourceManagerDialogPart">
+    <persistedState key="org.xmind.ui.dialogPart.customLocation" value=",,800,600"/>
+    <tags>DialogPart</tags>
+  </descriptors>
+  <descriptors xmi:id="_W8IhYETZEeaGL5Gu2uBiyA" elementId="org.xmind.ui.modelPart.image" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.image.label" tooltip="%part.image.tooltip" closeable="true" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4models.ImagePart">
+    <persistedState key="modelPart.pages.contributionUri" value="bundleclass://org.xmind.ui.gallery/org.xmind.ui.internal.gallery.ClipArtModelPage,bundleclass://org.xmind.ui.iconfinder/org.xmind.ui.internal.iconfinder.IconfinderModelPage"/>
+    <menus xmi:id="_Zdo1cJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.modelPart.image.menus.clipArt">
+      <tags>ViewMenu</tags>
+      <tags>org.xmind.ui.modelPart.image.pages.clipArt</tags>
+    </menus>
+    <menus xmi:id="_ZdzNgJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.modelPart.image.menus.iconfinder">
+      <tags>ViewMenu</tags>
+      <tags>org.xmind.ui.modelPart.image.pages.iconfinder</tags>
+    </menus>
+  </descriptors>
+  <descriptors xmi:id="_op2OQEPyEea1lftKKErTAQ" elementId="org.xmind.ui.dialogPart.sharedLibraries" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.lns.label" tooltip="%part.lns.tooltip" closeable="true" contributionURI="bundleclass://org.xmind.ui.sharing/org.xmind.ui.internal.sharing.SharedLibrariesDialogPart">
+    <persistedState key="org.xmind.ui.dialogPart.customLocation" value=",,800,600"/>
+    <tags>DialogPart</tags>
+  </descriptors>
+  <descriptors xmi:id="_Eive0E1WEeaIJZwk9Lg2xA" elementId="org.xmind.ui.modelPart.outline" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.outline.label" tooltip="%part.outline.tooltip" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.outline.OutlineIndexModelPart"/>
+  <descriptors xmi:id="_68AwcETWEeaXh5k4aWYfZA" elementId="org.eclipse.ui.views.ProgressView" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="Progreso" iconURI="platform:/plugin/org.xmind.cathy/icons/views/pview.gif" tooltip="" category="General" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="org.xmind.ui.dialogPart.customLocation" value=",,440,337"/>
+    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.ExtensionFactory"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.xmind.cathy"/>
+    <tags>DialogPart</tags>
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_MEH7sE--Eeaw5PYd-XTNrQ" elementId="org.xmind.ui.modelPart.themes" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.themes.label" tooltip="%part.themes.tooltip" closeable="true" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4models.ThemesPart"/>
+  <descriptors xmi:id="_lMPUEE8YEea6lLeX_BHgog" elementId="org.xmind.ui.modelPart.markers" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.markers.label" tooltip="%part.markers.tooltip" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4models.MarkerPart"/>
+  <descriptors xmi:id="_kVFRIFPPEeaz156P1OOUlQ" elementId="org.xmind.ui.modelPart.comments" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.comments.label" tooltip="%part.comments.tooltip" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4models.CommentsPart"/>
+  <descriptors xmi:id="_IDdecFSnEeaYF9iMJEnHJA" elementId="org.xmind.ui.modelPart.notes" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.notes.label" tooltip="%part.notes.tooltip" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4models.NotesPart"/>
+  <descriptors xmi:id="_QEWs8FnwEeaEI8QFvIQObw" elementId="org.xmind.ui.modelPart.properties" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.format.label" tooltip="%part.format.tooltip" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.properties.PropertiesPart"/>
+  <descriptors xmi:id="_SbiAQFMMEeacQb78DaYDYw" elementId="org.xmind.ui.modelPart.taskinfo" contributorURI="platform:/plugin/org.xmind.ui.taskinfo" label="%partdescriptor.label.taskinfo" tooltip="%partdescriptor.tooltip.taskinfo" contributionURI="bundleclass://org.xmind.ui.taskinfo/org.xmind.ui.internal.taskinfo.e4.model.TaskInfoPart"/>
+  <descriptors xmi:id="_SbiAQFMMEeacQb78DaYDYw" elementId="org.xmind.ui.dialogPart.gantt" contributorURI="platform:/plugin/org.xmind.ui.gantt" label="%partdescriptor.label.gantt" tooltip="%partdescriptor.tooltip.gantt" contributionURI="bundleclass://org.xmind.ui.gantt/org.xmind.ui.gantt.GanttDialogPart"/>
+  <descriptors xmi:id="_ZfZI8JAxEe2L3aOYNw4LfQ" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
+    <tags>Editor</tags>
+  </descriptors>
+  <descriptors xmi:id="_ZfZI8ZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.internal.introview" label="Bienvenida" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" category="General" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.ViewIntroAdapterPart"/>
+    <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <snippets xsi:type="basic:Part" xmi:id="_ZcPHbZAxEe2L3aOYNw4LfQ" elementId="org.xmind.cathy.part.dashboard" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.xmind.cathy/org.xmind.cathy.internal.dashboard.DashboardPart" label="Home" bindingContexts="_ZcPHa5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcPHbpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.export" contributorURI="platform:/plugin/org.xmind.cathy"/>
+  <commands xmi:id="_ZcPHb5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.views.showView" contributorURI="platform:/plugin/org.xmind.cathy"/>
+  <commands xmi:id="_ZcipT5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.sharing.localnetwork.shareLocalMaps" commandName="Compartir Archivos en la Red Local" description="Compartir Archivos Locales XMind en la red de &#xe1;rea local" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipUJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.pinEditor" commandName="Fijar editor" description="Fijar el editor actual" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipUZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.nextTab" commandName="Next Tab" description="Switch to the next tab" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipUpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.saveTemplate" commandName="Guardar Plantilla..." category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipU5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.quickAccess" commandName="Acceso r&#xe1;pido" description="Acceder r&#xe1;pidamente a los elementos UI" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipVJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.sharing.localnetwork.enableService" commandName="Conectar el servicio local para compartir" description="Conectar el servicio local para compartir" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipVZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.extendAll" commandName="Extender todo" description="Extender un elemento y todos sus sub-elementos" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipVpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.underline" commandName="Subrayar" description="Subrayar el texto" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipV5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertTopic" commandName="Insertar elemento" description="Insertar un elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipWJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.marker.export" commandName="Exportar marcadores" description="Exportar marcadores a paquete de marcadores" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipWZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.style.apply" commandName="Aplicar Estilo" description="Aplicar el estilo seleccionado en el editor actual" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZcipWpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.resource.uri" name="Estilo URI"/>
+  </commands>
+  <commands xmi:id="_ZcipW5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.template.rename" commandName="Renombrar Plantilla" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipXJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.zoomIn" commandName="Acercar" description="Acercar" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipXZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.extractTheme" commandName="Extraer Tema de apariencia [Pro]" description="Extraer tema de la hoja seleccionada" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipXpAxEe2L3aOYNw4LfQ" elementId="net.xmind.ui.command.subscribeNewsletter" commandName="Subscribirse a la Newsletter de XMind" description="Subscribirse a la Newsletter de XMind" category="_ZcipRJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipX5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertFloatingCentralTopic" commandName="Insertar elemento 'central' flotante" description="Insertar un elemento 'central' flotante" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipYJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.properties" commandName="Propiedades" description="Mostrar las propiedades del item seleccionado" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipYZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.preferences" commandName="Preferencias" description="Abrir el di&#xe1;logo de preferencias" category="_ZcipS5AxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZcipYpAxEe2L3aOYNw4LfQ" elementId="preferencePageId" name="Pagina de Preferencia"/>
+  </commands>
+  <commands xmi:id="_ZcipY5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.commitNotes" commandName="Ejecutar las notas" description="Antes de cerrar el cuadro de di&#xe1;logo, comprobar las modificaciones." category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipZJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.showResourceManagerDialog" commandName="Gestor de Recursos" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipZZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.activeContextInfo" commandName="Show activeContext Info" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_BGKJIJv4Eea2BOBr6Kczag" elementId="org.xmind.ui.command.openCloseModelPart" contributorURI="platform:/plugin/org.xmind.ui.mindmap">
+    <parameters xmi:id="_o8w_4Jv6Eea2BOBr6Kczag" elementId="org.xmind.ui.commandParameter.modelPart.partStackId" contributorURI="platform:/plugin/org.xmind.ui.mindmap" name="Model Part Command Parameter"/>
+  </commands>
+  <commands xmi:id="_ZcipZ5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.copy" commandName="Copiar" description="Copiar la selecci&#xf3;n al portapapeles" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipaJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.checkSpelling" commandName="Revisar la ortograf&#xed;a del editor" description="Comprueba los errores de ortograf&#xed;a del editor activo" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipaZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.nextView" commandName="Vista siguiente" description="Ir a la siguiente vista" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipapAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.text.contentAssist.contextInformation" commandName="Informaci&#xf3;n contextual" description="Mostrar informaci&#xf3;n contextual" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipa5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.saveAs" commandName="Guardar como" description="Guardar los contenidos actuales en otra ubicaci&#xf3;n" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipbJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.goHome" commandName="Centrar" description="Ir al elemento central" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipbZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.cancelHyperlink" commandName="Cancelar hiperv&#xed;nculo del elemento" description="Cancelar hiperv&#xed;nculo de ciertos elementos" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipbpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.traverse" commandName="Cruzo" description="Cruzar elementos cercanos" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipb5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.showMetaInspector" commandName="Mostrar inspector de metadatos" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipcJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.previousPerspective" commandName="Perspectiva anterior" description="Ir a la perspectiva anterior" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipcZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.splitEditor" commandName="Toggle Split Editor" description="Split or join the currently active editor." category="_ZcipS5AxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZcipcpAxEe2L3aOYNw4LfQ" elementId="Splitter.isHorizontal" name="Orientaci&#xf3;n" optional="false"/>
+  </commands>
+  <commands xmi:id="_Zcipc5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.mapShot" commandName="Captura de pantalla del mapa [Pro]" description="Tomar una captura de pantalla del mapa" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipdJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.clearMarkers" commandName="limpiar Marcadores" description="Limpiar Marcadores" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipdZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.dialog.openAudioNotesDialog" commandName="Notas Audio" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipdpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.merge" commandName="Fusionar... (Pro)" description="Fusionar el mapa actual con otra" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipd5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.fitSelection" commandName="Ajustar Selecci&#xf3;n" description="Zoom para ajustar la selecci&#xf3;n al tama&#xf1;o adecuado" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipeJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.collapseAll" commandName="Contraer todo" description="Contraer &#xe1;rbol actual" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipeZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.goInto" commandName="Ir a" description="Ir al item seleccionado" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipepAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.openWorkbook" commandName="Abrir el archivador" description="Abrir un archivador XMind" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_Zcipe5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.openWorkbook.uri" name="URL"/>
+  </commands>
+  <commands xmi:id="_ZcipfJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.maximizePart" commandName="Maximizar la vista o editor activo" description="Maximizar la vista o editor activo" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipfZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.lockToolBar" commandName="Fijar la barra de herramientas" description="Fijar la barra de herramientas" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipfpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.dialog.openAdvancedFilterDialog" commandName="Filtro" category="_ZcipSpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipf5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.newEditor" commandName="Nuevo editor" description="Abrir otro editor con los mismos datos del editor actual" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipgJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.minimizePart" commandName="Minimizar la vista o editor activo" description="Minimizar la vista o editor activo" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipgZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.share.email" commandName="Compartir via email" description="Compartir via email" category="_ZcipQ5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipgpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.duplicateSheet" commandName="Duplicar Hoja" description="Duplicar una hoja" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipg5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.menus.pro.command.feedback" commandName="Comentarios" category="_ZcipRJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciphJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertTopicBefore" commandName="Insertar elemento antes" description="Insertar un elemento antes" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciphZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.text.contentAssist.proposals" commandName="Asistencia de contenido" description="Asistencia de contenido" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciphpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.fitMap" commandName="Ajustar Mapa" description="Zoom para ajustar el mapa al tama&#xf1;o adecuado" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zciph5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.up" commandName="Subir" description="Ir a un nivel hacia arriba" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipiJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.activateEditor" commandName="Activar Editor" description="Activar el editor" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipiZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.showSystemMenu" commandName="Mostrar men&#xfa; del sistema" description="Mostrar el men&#xfa; del sistema" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipipAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.createBoundary" commandName="Crear l&#xed;mites" description="Crear un l&#xed;mite" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipi5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.style.edit" commandName="Editar el Estilo [Pro]" description="Abrir una ventana de dialogo para editar el estilo" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZcipjJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.resource.uri" name="Estilo URI"/>
+  </commands>
+  <commands xmi:id="_ZcipjZAxEe2L3aOYNw4LfQ" elementId="net.xmind.ui.command.signIn" commandName="Iniciar sesi&#xf3;n en XMind.net..." description="Iniciar sesi&#xf3;n en XMind.net y mostrar la p&#xe1;gina de cuenta" category="_ZcipRJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipjpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.share.private" commandName="Compartir enlace privado" description="Compartir en XMind.net con un enlace privado" category="_ZcipQ5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipj5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.centerAlign" commandName="Alineaci&#xf3;n central" description="Alinear texto en el centro" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipkJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.sharing.localnetwork.disableService" commandName="Desconectar el servicio local para compartir" description="Desconectar el servicio local para compartir" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipkZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.savePerspective" commandName="Guardar perspectiva como" description="Guardar la perspectiva actual" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipkpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.move" commandName="Mover..." description="Mover el item seleccionado" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipk5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.moveUp" commandName="Mover hacia arriba" description="Mover el elemento hacia arriba" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciplJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.saveAudioNoteAs" commandName="Guardar notas de audio como" description="Guardar notas de audio como" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciplZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.perspectives.showPerspective" commandName="Mostrar Perspectiva" description="Mostrar una perspectiva particular" category="_ZcipR5AxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciplpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.perspectives.showPerspective.perspectiveId" name="Par&#xe1;metro"/>
+    <parameters xmi:id="_Zcipl5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.perspectives.showPerspective.newWindow" name="En una nueva ventana"/>
+  </commands>
+  <commands xmi:id="_ZcipmJAxEe2L3aOYNw4LfQ" elementId="net.xmind.ui.command.goFeaturedMaps" commandName="Featured Mindmaps" category="_ZcipRJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipmZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.linkWithEditor" commandName="Conmutar enlace con editor" description="Conmuta el v&#xed;nculo de la selecci&#xf3;n de una vista con la selecci&#xf3;n del editor activo" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipmpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.openEditorDropDown" commandName="Cambiar r&#xe1;pido de editor" description="Abrir la lista descolgable de editores" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipm5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.newTheme" commandName="Nuevo Tema de apariencia [Pro]" description="Nuevo Tema de apariencia [Pro]" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipnJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.outdent" commandName="Anular sangr&#xed;a" description="Anular sangr&#xed;a de texto" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipnZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.properties.duplicate" commandName="Duplicar" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipnpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.marker.import" commandName="Importar Marcadores" description="Importar marcadores desde un paquete de marcadores o desde el sistema de archivos local" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipn5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertFloatingTopic" commandName="Insertar elemento flotante" description="Insertar un elemento flotante" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipoJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.openHomeMap" commandName="Abrir el mapa de inicio" description="Abrir el mapa de inicio" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipoZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.alignment" commandName="Alineamiento" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZcipopAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.alignmentParameter" name="Parametro de Alineamiento"/>
+  </commands>
+  <commands xmi:id="_Zcipo5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.welcome" commandName="Bienvenido a XMind" description="Mostrar informaci&#xf3;n de bienvenida" category="_ZcipTpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcippJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.drillUp" commandName="Volver" description="Volver atr&#xe1;s" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcippZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.resetPerspective" commandName="Restablecer perspectiva" description="Restablecer la perspectiva actual a su estado por defecto" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipppAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.internal.e4.marker.show" commandName="Gestor de marcadores" description="Mostrar gestor de marcadores" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipp5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.undo" commandName="Deshacer" description="Deshacer la &#xfa;ltima operaci&#xf3;n" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipqJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertCallout" commandName="Insertar llamada" description="Insertar un bocadillo al asunto seleccionado" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipqZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.brainstorm" commandName="Iniciar la Luvia de ideas" description="Iniciar el modo Lluvia de ideas" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipqpAxEe2L3aOYNw4LfQ" elementId="net.xmind.ui.command.activatePro" commandName="Activar XMind Pro/Plus" description="Activar las funcionalidades avanzadas usando un n&#xfa;mero de licencia XMind Pro/Plus o una cuenta de suscripci&#xf3;n" category="_ZcipRJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipq5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertSubtopic" commandName="Insertar sub-elemento" description="Insertar un sub-elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciprJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.closeAll" commandName="Cerrar todos" description="Cerrar todos los editores" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciprZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.editTitle" commandName="Editar T&#xed;tulo" description="Modificar el t&#xed;tulo de un elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciprpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.cut" commandName="Cortar" description="Cortar la selecci&#xf3;n" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipr5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.paste" commandName="Pegar" description="Pegar el contenido del porta papeles" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipsJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.part.nextPage" commandName="P&#xe1;gina siguiente" description="Ir a la siguiente p&#xe1;gina" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipsZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.share.linkedin" commandName="Compartir en LinkedIn" description="Compartir en LinkedIn" category="_ZcipQ5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipspAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.template.delete" commandName="Eliminar Plantilla" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcips5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.previous" commandName="Anterior" description="Ir al item anterior" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciptJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.gallery.exportClipArts" commandName="Exportar Im&#xe1;genes Predise&#xf1;adas" description="Exportar Im&#xe1;genes Predise&#xf1;adas" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciptZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.rename" commandName="Renombrar" description="Renombrar el item seleccionado" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciptpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.sharing.localnetwork.openSharedMap" commandName="Abrir Mapa Compartido" description="Abrir una mapa compartido por usuario local o remoto" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipt5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.commitComments" commandName="Memorizar Comentarios" description="Antes de cerrar el cuadro de di&#xe1;logo, comprobar las modificaciones" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipuJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.sort" commandName="Clasificar" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZcipuZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.sortParameter" name="Parametro de Clasificaci&#xf3;n"/>
+  </commands>
+  <commands xmi:id="_ZcipupAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.gotoCommentsView" commandName="Ver notas" description="Continuar edici&#xf3;n de notas" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipu5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.share" commandName="Compartir" description="Mostrar opciones para compartir mapa" category="_ZcipQ5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipvJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.theme.edit" commandName="Editar tema [Pro]" description="Abrir un d&#xed;alogo para editar el tema de apariencia" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZcipvZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.resource.uri" name="Estilo URI"/>
+  </commands>
+  <commands xmi:id="_ZcipvpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.exportXMindResourceBundle" commandName="Exportar Paquete de recursos XMind" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipv5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.print" commandName="Imprimir" description="Imprimir" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipwJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.toggleDashboard" commandName="Volver al inicio" description="Mostrar/Ocultar interfaz de usuario inicial" category="_ZcipRZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipwZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.addMarker" commandName="A&#xf1;adir r&#xe1;pidamente un marcador" description="A&#xf1;adir r&#xe1;pidamente un marcador a un elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZcipwpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.mindmap.markerId" name="Marcador" optional="false"/>
+  </commands>
+  <commands xmi:id="_Zcipw5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.importWorkbook" commandName="Importar Libro XMind" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipxJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.dialog.openSpellingCheckDialog" commandName="Ortograf&#xed;a" category="_ZcipSpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipxZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.editSelectedTheme" commandName="Editar tema [Pro]" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipxpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.removeAllStyles" commandName="Eliminar estilos" description="Eliminar estilos" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipx5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.forwardHistory" commandName="Historial hacia adelante" description="Historial hacia adelante" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipyJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.spy" commandName="Show Contributing Plug-in" description="Shows contribution information for the currently selected element" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipyZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.help.helpSearch" commandName="Buscar ayuda" description="Abrir b&#xfa;squeda de ayuda" category="_ZcipTpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipypAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.style.paste" commandName="Pegar estilo" description="Pegar estilo" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipy5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.restartWorkbench" commandName="Reiniciar" description="Reiniciar el entorno de trabajo" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipzJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.moveDown" commandName="Mover abajjo" description="Mover el elemento abajo" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipzZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.editNotes" commandName="Editar Notas" description="Editar las notas del elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZcipzpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.duplicate" commandName="Duplicar" description="Duplicar un asunto" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcipz5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.style.copy" commandName="Copiar Estilo" description="Copiar Estilo" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip0JAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.share.facebook" commandName="Compartir en Facebook" description="Compartir en Facebook" category="_ZcipQ5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip0ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.security" commandName="Seguridad" description="A&#xf1;adir contrase&#xf1;a al archivo de XMind" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip0pAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.reduceFileSize" commandName="Reducir el Tama&#xf1;o del Archivo" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip05AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.rightAlign" commandName="Alineaci&#xf3;n derecha" description="Alinear texto a la derecha" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip1JAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.style.edit2" commandName="Editar el Estilo [Pro]" description="Abrir una ventana de dialogo para editar el estilo" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_Zcip1ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.resource.uri" name="Estilo URI"/>
+  </commands>
+  <commands xmi:id="_Zcip1pAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.dialog.openBlackBoxDialog" commandName="Caja Negra" category="_ZcipSpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip15AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.editLabel" commandName="Editar Etiquetas del elemento" description="A&#xf1;adir o eliminar etiquetas al elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip2JAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.showViewMenu" commandName="Mostrar men&#xfa; Ver" description="Mostrar men&#xfa; Ver" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip2ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.extractStyle" commandName="Extraer Estilo [Pro]" description="Extraer estilo desde el editor actual" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip2pAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.backwardHistory" commandName="Historial hacia atr&#xe1;s" description="Historial hacia atr&#xe1;s" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip25AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.previousTab" commandName="Previous Tab" description="Switch to the previous tab" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip3JAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.filter.showAll" commandName="Mostrar Todo [Pro]" category="_ZcipSpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip3ZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.refresh" commandName="Renovar" description="Refrescar los items seleccionados" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip3pAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.closeAllPerspectives" commandName="Cerrar todas las perspectivas" description="Cerrar todas las perspectivas abiertas" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip35AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.pinRecentFile" commandName="Seleccionar Archivo Reciente" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip4JAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.collapse" commandName="Reducir" description="Reducir un elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip4ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.clearWorkbookHistory" commandName="Limpiar historia de los libros de trabajo abiertos recientemente" description="Limpiar &#xed;tems de historia de libros de trabajo abiertos recientemente" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip4pAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.selectChildren" commandName="Seleccionar inferiores" description="Seleccionar todos los elementos inferiores" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip45AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.share.blog" commandName="Compartir en Blog" description="Compartir en Blog" category="_ZcipQ5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip5JAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.newFromTemplate" commandName="Desde Plantilla" description="Crear un archivador a partir de la plantilla seleccionada" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip5ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.template.duplicate" commandName="Duplicar plantilla" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip5pAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.gallery.manageClipArts" commandName="Gestionar Im&#xe1;genes Predise&#xf1;adas" description="Gestionar Im&#xe1;genes Predise&#xf1;adas" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip55AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.takeAudioNotes" commandName="Tomar notas audio" description="Tomar notas audio aqu&#xed;" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip6JAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.showOverview" commandName="Visi&#xf3;n de conjunto" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip6ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.leftAlign" commandName="Alineaci&#xf3;n izquierda" description="Alinear el texto a la izquierda" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip6pAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.expandAll" commandName="Expandir todo" description="Expand the current tree" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip65AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.saveAll" commandName="Guardar todo" description="Guardar todos los contenidos actuales" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip7JAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.showKeyAssist" commandName="Asistencia de teclas" description="Mostrar di&#xe1;logo de asistencia de teclas" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip7ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.outline.print" commandName="Imprimir del Esquema General" description="Imprimir el esquema del mapa mental" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip7pAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.closeOthers" commandName="Cerrar los otros" description="Cerrar todos los editores excepto el activo" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip75AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.save" commandName="Guardar" description="Guardar los contenidos actuales" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip8JAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertAttachment" commandName="Insertar anexo" description="Insertar un archivo externo en el mapa como un anexo" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip8ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.copySheet" commandName="Copiar hoja" description="Copiar ihoja" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip8pAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.sharing.localnetwork.saveRemoteSharedMap" commandName="Guardar mapa compartido por un Usuario remoto" description="Guardar mapa compartido con un Usuario remoto" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip85AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.editingHistory" commandName="Editar historial del archivador" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip9JAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.share.biggerplate" commandName="Compartir en Biggerplate.com" category="_ZcipQ5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip9ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.style.rename" commandName="Renombrar..." description="Renombrar el estilo seleccionado" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_Zcip9pAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.resource.uri" name="Estilo URI"/>
+  </commands>
+  <commands xmi:id="_Zcip95AxEe2L3aOYNw4LfQ" elementId="net.xmind.ui.command.checkForUpdates" commandName="Buscar Actualizaciones" description="Buscar Actualizaciones de XMind" category="_ZcipRJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip-JAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.previousEditor" commandName="Editor anterior" description="Ir al editor anterior" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip-ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.drillDown" commandName="Ver en detalle" description="Ver  en detalle" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip-pAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.saveSheetAs" commandName="Guardar Hoja Como..." category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip-5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.editComments" commandName="Editar comentario" description="Editar comentarios del elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip_JAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.findReplace" commandName="Buscar y reemplazar" description="Buscar y reemplazar textos" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip_ZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.moveLeft" commandName="Mover hacia la izquierda" description="Mover el elemento hacia la izquierda" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip_pAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.gantt.command.exportPdf" commandName="Exportar a PDF" description="Exportar Diagrama Gantt a archivo PDF" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zcip_5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.style.reset" commandName="Restablecer Estilo" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqAJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.dialog.openSearchDialog" commandName="Buscar" category="_ZcipSpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqAZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.help.tipsAndTricksAction" commandName="Sugerencias y trucos" description="Abrir la p&#xe1;gina de ayuda de trucos y sugerencias" category="_ZcipTpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqApAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.fullscreenmode" commandName="Toggle Full Screen" description="Toggles the window between full screen and normal" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqA5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.nextEditor" commandName="Editor siguiente" description="Ir al siguiente editor" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqBJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.openHyperlink" commandName="Abrir hiperv&#xed;nculo" description="Abrir el hiperv&#xed;nculo" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqBZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.help.helpContents" commandName="Ayuda" description="Mostrar los contenidos de ayuda" category="_ZcipTpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqBpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.exportTheme" commandName="Exportar Temas [Pro]" description="Exportar Temas [Pro]" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqB5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.delete" commandName="Suprimir" description="Borrar la selecci&#xf3;n" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqCJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.sharing.localnetwork.shareOpenedMap" commandName="Compartir en la Red Local" description="Compartir el mapa actual en la red de &#xe1;rea local" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqCZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.deleteSheet" commandName="Eliminar hoja" description="Eliminar una hoja" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqCpAxEe2L3aOYNw4LfQ" elementId="net.xmind.ui.command.signOut" commandName="Desconectarse de XMind.net" description="Desconectarse de XMind.net" category="_ZcipRJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqC5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.finish" commandName="Acabar" description="Acabar el trabajo actual" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqDJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertImage" commandName="Insertar imagen" description="Insertar una imagen en un elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqDZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.outline.export" commandName="Exportar Esquema General" description="Exportar Esquema General" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqDpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.exit" commandName="Salir" description="Salir de la aplicaci&#xf3;n" category="_ZcipSZAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciqD5AxEe2L3aOYNw4LfQ" elementId="mayPrompt" name="may prompt"/>
+  </commands>
+  <commands xmi:id="_ZciqEJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.share.twitter" commandName="Compartir en Twitter" description="Compartir en Twitter" category="_ZcipQ5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqEZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.newSheetFromTemplate" commandName="Nueva Hoja desde Plantilla" description="A&#xf1;adir una nueva hoja desde Plantilla al Libro XMind corriente" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqEpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.saveImageAs" commandName="Guardar imagen como" description="Guardar imagen como" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqE5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.addBookmark" commandName="A&#xf1;adir a favoritos" description="Agregar favorito" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqFJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.showDashboard" commandName="Mostrar Inicio" description="Mostrar interfaz de usuario inicial" category="_ZcipRZAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciqFZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.showDashboard.pageId" name="Id de p&#xe1;gina de inicio"/>
+  </commands>
+  <commands xmi:id="_ZciqFpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.previousView" commandName="Vista anterior" description="Ir a la vista anterior" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqF5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.style.delete" commandName="Eliminar" description="Eliminar el estilo seleccionado" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqGJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.revert" commandName="Revertir" description="Revertir al &#xfa;ltimo estado guardado" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqGZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.selectAll" commandName="Seleccionar todo" description="Seleccionar todo" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqGpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.unpinRecentFile" commandName="Deseleccionar Archivo Reciente" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqG5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.sharing.localnetwork.sendSharingMessage" commandName="Enviar Mensaje de Mapa Compartido" description="Enviar mensaje sobre los mapas compartidos seleccionados" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqHJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.actualSize" commandName="Tama&#xf1;o actual" description="Ver tama&#xf1;o actual" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqHZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.hyperlink" commandName="Modificar el hiperv&#xed;nculo del elemento" description="Modificar el hiperv&#xed;nculo de varios elementos" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqHpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.evernote.save" commandName="Guardar en Evernote..." category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqH5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.hidetrimbars" commandName="Toggle visibility of the window toolbars" description="Toggle the visibility of the toolbars of the current window" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqIJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertSheetFrom" commandName="Crear una hoja a partir de" description="Crear una hoja a partir del elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqIZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.gantt.command.export" commandName="Exportar" description="Exportar el Diagrama de Gantt a archivo PNG" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqIpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.import" commandName="Importar" description="Importar" category="_ZcipSZAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciqI5AxEe2L3aOYNw4LfQ" elementId="importWizardId" name="Asistente de importaci&#xf3;n"/>
+  </commands>
+  <commands xmi:id="_ZciqJJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.share.public" commandName="Compartir enlace p&#xfa;blico" description="Compartir en XMind.net con un enlace p&#xfa;blico" category="_ZcipQ5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqJZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.clearRecentFile" commandName="Borrar Archivo Reciente" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqJpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.switchToEditor" commandName="Ir a un editor" description="Ir a un editor" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqJ5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.properties.reset" commandName="Restaurar ajustes por defecto" description="Restaurar los ajustes seleccionados a valores por defecto" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqKJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.help.dynamicHelp" commandName="Ayuda din&#xe1;mica" description="Abrir la ayuda din&#xe1;mica" category="_ZcipTpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqKZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.nextSubTab" commandName="Next Sub-Tab" description="Switch to the next sub-tab" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqKpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.collapseAll" commandName="Reducir todo" description="Reducir un elemento y todos sus sub-elementos" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqK5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.selectBrothers" commandName="Seleccionar superiores" description="Seleccionar todos los elementos superiores" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqLJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.italic" commandName="Cursiva" description="Aplicar el estilo cursiva" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqLZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.closePart" commandName="Cerrar componente" description="Cerrar el componente activo" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqLpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.gallery.importClipArts" commandName="Importar Im&#xe1;genes Predise&#xf1;adas" description="Importar Im&#xe1;genes Predise&#xf1;adas" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqL5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.help.installationDialog" commandName="Informaci&#xf3;n de instalaci&#xf3;n" description="Abrir el di&#xe1;logo de informaci&#xf3;n de instalaci&#xf3;n" category="_ZcipTpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqMJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.resetPosition" commandName="Restablecer posici&#xf3;n" description="Restablecer posici&#xf3;n" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqMZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.bold" commandName="Negrita" description="Aplicar el estilo negrita" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqMpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.back" commandName="Atr&#xe1;s" description="Atr&#xe1;s" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqM5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.sharing.localnetwork.shareLibraryMap" commandName="Compartir en la Red Local" description="Cambiar los permisos del mapa que quiere compartir" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqNJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.part.previousPage" commandName="P&#xe1;gina anterior" description="Ir a la p&#xe1;gina anterior" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqNZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.importTheme" commandName="Importar Temas [Pro] ..." description="Importar Temas [Pro] ..." category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqNpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.revertToRevision" commandName="Revertir la revisi&#xf3;n" description="Revertir hoja a la revisi&#xf3;n seleccionada" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqN5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.next" commandName="Siguiente" description="Ir al pr&#xf3;ximo item" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqOJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.tile" commandName="Cuadr&#xed;cula" description="Organizar los elementos con la cuadr&#xed;cula para evitar solapamientos" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqOZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.closePerspective" commandName="Cerrar perspectiva" description="Cerrar la perspectiva actual" category="_ZcipS5AxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciqOpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.closePerspective.perspectiveId" name="Id de perspectiva"/>
+  </commands>
+  <commands xmi:id="_ZciqO5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.createSummary" commandName="Crear llave" description="Crear una llave" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqPJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.zoomOut" commandName="Alejar" description="Alejar" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqPZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.insertParentTopic" commandName="Insertar elemento patr&#xf3;n" description="Insertar un elemento patr&#xf3;n" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqPpAxEe2L3aOYNw4LfQ" elementId="net.xmind.ui.command.feedback" commandName="Sugerencias a XMind.net" description="Enviar mensaje de sugerencias a XMind.net" category="_ZcipRJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqP5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.colorfulSheet" commandName="Pesta&#xf1;a de la hoja de color" category="_ZcipQpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciqQJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.colorfulSheet.rgbParameter" name="RGB"/>
+  </commands>
+  <commands xmi:id="_ZciqQZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.help.aboutAction" commandName="Acerca de" description="Abrir el di&#xe1;logo Acerca de" category="_ZcipTpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqQpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.closeAllSaved" commandName="Cerrar todos los guardados" description="Close all saved editors" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqQ5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.edit.redo" commandName="Rehacer" description="Rehacer la &#xfa;ltima operaci&#xf3;n" category="_ZcipQZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqRJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.gotoNotesView" commandName="Ver Notas" description="Continuar edici&#xf3;n de Notas" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqRZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.pasteSheet" commandName="Pegar la hoja" description="Pegar la hoja" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqRpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.checkSpelling.allEditors" commandName="Revisar la ortograf&#xed;a de todos los editores" description="Comprueba los errores de ortograf&#xed;a de todos los editores abiertos" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqR5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.saveAttachmentAs" commandName="Guardar anexo como" description="Guardar anexo en el sistema de archivos local" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqSJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.newWizard" commandName="Nuevo" description="Abrir un nuevo asistente" category="_ZcipSZAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciqSZAxEe2L3aOYNw4LfQ" elementId="newWizardId" name="Nuevo asistente"/>
+  </commands>
+  <commands xmi:id="_ZciqSpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.newWindow" commandName="Nueva ventana" description="Abrir otra ventana" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqS5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.file.close" commandName="Cerrar" description="Cerrar el editor activo" category="_ZcipSZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqTJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.gantt.command.exportToProject" commandName="Exportar a Project" description="Exportar a Diagrama de Gantt a un archivo de Microsoft Project" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqTZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.newSheet" commandName="Nueva hoja" description="Crear una nueva hoja" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqTpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.strikeout" commandName="Tachar" description="Aplicar formato de tachado al texto" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqT5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.customizePerspective" commandName="Personalizar perspectiva" description="Personalizar la perspectiva actual" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqUJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.indent" commandName="Sangr&#xed;a" description="Sangr&#xed;a de texto" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqUZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.ShowTaskInfo" commandName="Informaci&#xf3;n de Tarea [Pro]" description="Mostrar Informaci&#xf3;n de tarea" category="_ZcipTJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqUpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.help.quickStartAction" commandName="Bienvenida" description="Mostrar ayuda para principiantes" category="_ZcipTpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqU5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.iconfinder.showFilter" commandName="Mostrar filtro" description="Mostrar filtro de Iconfinder" category="_ZcipTJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqVJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.previewRevision" commandName="Vista Previa de esta revisi&#xf3;n" description="Vista Previa de esta revisi&#xf3;n" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqVZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.previousSubTab" commandName="Previous Sub-Tab" description="Switch to the previous sub-tab" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqVpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.text.font" commandName="Fuente" description="Cambiar fuente" category="_ZcipRpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqV5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.importXMindResourceBundle" commandName="Importar Paquete de recursos XMind" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqWJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.hideShowEditors" commandName="Toggle Shared Area Visibility" description="Toggles the visibility of the shared area" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqWZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.showIn" commandName="Mostrar en" category="_ZcipSJAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciqWpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.showIn.targetId" name="Mostrar en el Id de Destino" optional="false"/>
+  </commands>
+  <commands xmi:id="_ZciqW5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.help.displayHelp" commandName="Mostrar ayuda" description="Mostrar un tema de la ayuda" category="_ZcipTpAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciqXJAxEe2L3aOYNw4LfQ" elementId="href" name="Mostrar href de tema de ayuda"/>
+  </commands>
+  <commands xmi:id="_ZciqXZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.searchWorkbooks" commandName="Buscar en los archivadores" description="Buscar en un archivador abierto" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqXpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.extend" commandName="Extender" description="Extender un elemento" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqX5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.createRelationship" commandName="Crear relaci&#xf3;n" description="Crear una relaci&#xf3;n" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqYJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.moveRight" commandName="Mover hacia la derecha" description="Mover el elemento hacia la derecha" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqYZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.showContextMenu" commandName="Show Context Menu" description="Show the context menu" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqYpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.startPresentation" commandName="Iniciar una Presentaci&#xf3;n" description="Iniciar la Presentaci&#xf3;n de este mapa" category="_ZcipTZAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqY5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.saveWorkbookAs" commandName="Guardar Archivador como" description="Guardar el archivador seleccionado en otra ubicaci&#xf3;n" category="_ZcipSZAxEe2L3aOYNw4LfQ">
+    <parameters xmi:id="_ZciqZJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.saveWorkbookAs.wizardId" name="Asistente Id"/>
+    <parameters xmi:id="_ZciqZZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.saveWorkbookAs.excludedWizardIds" name="Asistente de Ids  excluidos"/>
+  </commands>
+  <commands xmi:id="_ZciqZpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.navigate.forward" commandName="Hacia adelante" description="Siguiente" category="_ZcipSJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqZ5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.removeMarkerFromAllTopics" commandName="Eliminar marcador de todos los temas" description="Eliminar marcador de todos los temas" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqaJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.window.nextPerspective" commandName="Perspectiva siguiente" description="Ir a la siguiente perspectiva" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqaZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.ClipArt.delete" commandName="Eliminar" category="_ZcipTJAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqapAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.ToggleCoolbarAction" commandName="Conmutar visibilidad de la barra de herramientas" description="Conmutar visibilidad de la barra de herramientas de la ventana" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_Zciqa5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.command.newWorkbook" commandName="Nuevo archivador XMind" description="Crear un archivador XMind en blanco" category="_ZcipS5AxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_ZciqbJAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.gantt.command.print" commandName="Imprimir" description="Imprimir Diagrama de Gantt en fichero PDF" category="_ZcipQpAxEe2L3aOYNw4LfQ"/>
+  <commands xmi:id="_KIsnIBHAEeav9rHpAOC_nw" elementId="org.xmind.ui.command.showDialogPart" contributorURI="platform:/plugin/org.xmind.ui.mindmap" commandName="%part.command.showDialogPart.name" description="%part.command.showDialogPart.description">
+    <parameters xmi:id="_UsHikBHAEeav9rHpAOC_nw" elementId="org.xmind.ui.commandParameter.modelPart.partId" contributorURI="platform:/plugin/org.xmind.ui.mindmap" name="Part Id (Model Part Command Parameter)" optional="false"/>
+    <parameters xmi:id="_BG3boDQtEea08IeOxzw2pA" elementId="org.xmind.ui.commandParameter.modelPart.pageId" contributorURI="platform:/plugin/org.xmind.ui.mindmap" name="Page Id (Model Part Command Parameter)"/>
+    <parameters xmi:id="_qfHlIGA-EeafBuWS2T8nAQ" elementId="org.xmind.ui.commandParameter.modelPart.partStackId" contributorURI="platform:/plugin/org.xmind.ui.mindmap" name="PartStack Id (Model Part Command Parameter)"/>
+  </commands>
+  <commands xmi:id="_Se3CwENCEeaUAPB93OC16w" elementId="org.xmind.ui.command.toggleModelPart" contributorURI="platform:/plugin/org.xmind.ui.mindmap" commandName="%part.command.togglePart.name" description="%part.command.togglePart.description">
+    <parameters xmi:id="_TckoMENCEeaUAPB93OC16w" elementId="org.xmind.ui.commandParameter.modelPart.partId" contributorURI="platform:/plugin/org.xmind.ui.mindmap" name="Model Part Command Parameter" optional="false"/>
+    <parameters xmi:id="_UEtmQENCEeaUAPB93OC16w" elementId="org.xmind.ui.commandParameter.modelPart.partStackId" contributorURI="platform:/plugin/org.xmind.ui.mindmap" name="Model Part Command Parameter"/>
+  </commands>
+  <commands xmi:id="_O1o84FI2EeajQ9IgtnhU8w" elementId="org.xmind.ui.command.showModelPart" contributorURI="platform:/plugin/org.xmind.ui.mindmap" commandName="%part.command.showModelPart.name">
+    <parameters xmi:id="_3A5DoGA-EeafBuWS2T8nAQ" elementId="org.xmind.ui.commandParameter.modelPart.partId" contributorURI="platform:/plugin/org.xmind.ui.mindmap" name="Part Id (Model Part Command Parameter)" optional="false"/>
+    <parameters xmi:id="_3430gGA-EeafBuWS2T8nAQ" elementId="org.xmind.ui.commandParameter.modelPart.pageId" contributorURI="platform:/plugin/org.xmind.ui.mindmap" name="Page Id (Model Part Command Parameter)"/>
+    <parameters xmi:id="_4oJVUGA-EeafBuWS2T8nAQ" elementId="org.xmind.ui.commandParameter.modelPart.partStackId" contributorURI="platform:/plugin/org.xmind.ui.mindmap" name="PartStack Id (Model Part Command Parameter)"/>
+  </commands>
+  <commands xmi:id="_ldPXEF7HEeaQJfiZMX61eg" elementId="org.xmind.ui.command.setDefaultTheme" contributorURI="platform:/plugin/org.xmind.ui.mindmap" commandName="%part.command.setDefaultTheme" description=""/>
+  <commands xmi:id="_8hT8YF7XEeaQJfiZMX61eg" elementId="org.xmind.ui.command.renameResource" contributorURI="platform:/plugin/org.xmind.ui.mindmap" commandName="%part.command.renameResource.name"/>
+  <commands xmi:id="_kdF_UF7gEeaQJfiZMX61eg" elementId="org.xmind.ui.command.deleteResource" contributorURI="platform:/plugin/org.xmind.ui.mindmap" commandName="%part.command.deleteResource.name" description=""/>
+  <commands xmi:id="_9UsLAF7gEeaQJfiZMX61eg" elementId="org.xmind.ui.command.editResource" contributorURI="platform:/plugin/org.xmind.ui.mindmap" commandName="%part.command.editResource.name" description=""/>
+  <commands xmi:id="_R2MgMF7hEeaQJfiZMX61eg" elementId="org.xmind.ui.command.duplicateResource" contributorURI="platform:/plugin/org.xmind.ui.mindmap" commandName="%part.command.duplicateResource.name" description=""/>
+  <commands xmi:id="_xIgxYICzEeak_br5gl15Ow" elementId="org.xmind.ui.command.showPopover" contributorURI="platform:/plugin/org.xmind.ui.mindmap" commandName="%part.command.showPopover.name"/>
+  <commands xmi:id="_buAI4HlmEeawEIHJWLyH7A" elementId="org.xmind.ui.command.showProDialogPart" contributorURI="platform:/plugin/net.xmind.verify" commandName="%command.commandname.show.pro.dialog" description="%command.description.show.pro.dialog">
+    <parameters xmi:id="_buAI4XlmEeawEIHJWLyH7A" elementId="org.xmind.ui.commandParameter.modelPart.partId" contributorURI="platform:/plugin/net.xmind.verify" name="Part Id (Model Part Command Parameter)" optional="false"/>
+    <parameters xmi:id="_buAI4nlmEeawEIHJWLyH7A" elementId="org.xmind.ui.commandParameter.modelPart.pageId" contributorURI="platform:/plugin/net.xmind.verify" name="Page Id (Model Part Command Parameter)"/>
+    <parameters xmi:id="_buAI43lmEeawEIHJWLyH7A" elementId="org.xmind.ui.commandParameter.modelPart.partStackId" contributorURI="platform:/plugin/net.xmind.verify" name="PartStack Id (Model Part Command Parameter)"/>
+    <parameters xmi:id="_blOgAHlpEeawEIHJWLyH7A" elementId="org.xmind.ui.commandParameter.modelPart.featureKey" contributorURI="platform:/plugin/net.xmind.verify" name="Feature Key (Pro Model Part Command Parameter)"/>
+  </commands>
+  <commands xmi:id="_aFkFkAB_EeandKuYdHFr7Q" elementId="org.xmind.ui.menu.pro.command.presentation.walkthrough" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" commandName="%toolbar.advanced.presentation.walkthrough.label"/>
+  <commands xmi:id="_DoiZsACREeaVscD3FeymkQ" elementId="org.xmind.ui.menu.pro.command.presentation.newstory" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" commandName="%toolbar.advanced.presentation.newstory.label"/>
+  <addons xmi:id="_ZcPHcJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_ZcPHcZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_ZcPHcpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_ZcPHc5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_ZcPHdJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_ZcPHdZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_ZcPHdpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_ZcPHd5AxEe2L3aOYNw4LfQ" elementId="DnD Addon" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.dndaddon.DnDAddon"/>
+  <addons xmi:id="_ZcPHeJAxEe2L3aOYNw4LfQ" elementId="XMinMaxAddon" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.xmind.cathy/org.xmind.cathy.internal.ui.workbench.addons.minmax.MinMaxAddon"/>
+  <addons xmi:id="_ZcPHeZAxEe2L3aOYNw4LfQ" elementId="org.xmind.cathy.addon.dashboardAutomation" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.xmind.cathy/org.xmind.cathy.internal.dashboard.DashboardAutomationAddon"/>
+  <addons xmi:id="_ZcPHepAxEe2L3aOYNw4LfQ" elementId="org.xmind.cathy.addon.commandLabelUpdater" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.xmind.cathy/org.xmind.cathy.internal.CommandLabelUpdater"/>
+  <addons xmi:id="_ZcPHe5AxEe2L3aOYNw4LfQ" elementId="org.xmind.cathy.addon.saveCommandLabelUpdater" contributorURI="platform:/plugin/org.xmind.cathy" contributionURI="bundleclass://org.xmind.cathy/org.xmind.cathy.internal.SaveCommandLabelUpdater"/>
+  <addons xmi:id="_ZcY4QJAxEe2L3aOYNw4LfQ" elementId="CleanupAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon"/>
+  <addons xmi:id="_ZcY4QZAxEe2L3aOYNw4LfQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
+  <categories xmi:id="_ZcipQJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.category.views" name="Vistas" description="Comandos de apertura de vistas"/>
+  <categories xmi:id="_ZcipQZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.category.edit" name="Editar"/>
+  <categories xmi:id="_ZcipQpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.category.mindmap" name="Mapa mental" description="Comando para editar el mapa"/>
+  <categories xmi:id="_ZcipQ5AxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.category.share" name="Compartir" description="Compartir"/>
+  <categories xmi:id="_ZcipRJAxEe2L3aOYNw4LfQ" elementId="net.xmind.ui.commands" name="XMind.Net"/>
+  <categories xmi:id="_ZcipRZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.category.cloud" name="Nube"/>
+  <categories xmi:id="_ZcipRpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.category.text.edit" name="Edici&#xf3;n de Texto" description="Comandos de edici&#xf3;n de texto"/>
+  <categories xmi:id="_ZcipR5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.category.perspectives" name="Perspectivas" description="Comandos para abrir perspectivas"/>
+  <categories xmi:id="_ZcipSJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.category.navigate" name="Navegar"/>
+  <categories xmi:id="_ZcipSZAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.category.file" name="Archivo"/>
+  <categories xmi:id="_ZcipSpAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.dialog" name="Di&#xe1;logo"/>
+  <categories xmi:id="_ZcipS5AxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.category.window" name="Ventana"/>
+  <categories xmi:id="_ZcipTJAxEe2L3aOYNw4LfQ" elementId="org.eclipse.core.commands.categories.autogenerated" name="No categorizado" description="Mandatos generados autom&#xe1;ticamente o que no tienen categor&#xed;a"/>
+  <categories xmi:id="_ZcipTZAxEe2L3aOYNw4LfQ" elementId="org.xmind.ui.category.view" name="Ver" description="Comando para visualizar el mapa"/>
+  <categories xmi:id="_ZcipTpAxEe2L3aOYNw4LfQ" elementId="org.eclipse.ui.category.help" name="Ayuda"/>
+</application:Application>

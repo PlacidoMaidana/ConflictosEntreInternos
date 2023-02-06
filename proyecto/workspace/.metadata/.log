@@ -1,0 +1,25 @@
+!SESSION 2023-01-09 12:22:12.289 -----------------------------------------------
+eclipse.buildId=R3.7.9.201912052356
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\xampp\htdocs\confilctos\proyecto\conflictos.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage C:\xampp\htdocs\confilctos\proyecto\conflictos.xmind
+
+!ENTRY org.xmind.cathy 1 0 2023-01-09 12:22:14.947
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2023-01-09 12:22:14.947
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2023-01-09 12:22:15.971
+!MESSAGE Path queued to be opened: C:\xampp\htdocs\confilctos\proyecto\conflictos.xmind
+
+!ENTRY org.xmind.cathy 1 0 2023-01-09 12:22:17.012
+!MESSAGE Ready to open files: [C:\xampp\htdocs\confilctos\proyecto\conflictos.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2023-01-09 12:22:17.032
+!MESSAGE Malformed URI: C:\xampp\htdocs\confilctos\proyecto\conflictos.xmind
+
+!ENTRY org.xmind.ui.mindmap 4 4 2023-01-09 13:23:13.610
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
