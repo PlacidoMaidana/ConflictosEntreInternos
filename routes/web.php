@@ -1,9 +1,11 @@
 <?php
 //use app\Http\Controllers\Internos_extra;
+use App\Http\Controllers\Voyager\PoblacionController;
 use App\Interno;
 use App\Audiencia;
 use Illuminate\Support\Facades\Route;
 use Yajra\Datatables\Facades\Datatables;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +32,32 @@ Route::get('/internos', function () {
     return view('internos_elegir');
 });
 
+Route::post('/importar-excel', [PoblacionController::class, 'importarDesdeExcel'])->name('importar-excel');
+Route::get('/importar', [PoblacionController::class, 'mostrarVistaImportacion'])->name('vista-importar');
+Route::get('/ver-consulta', function () {
+    $resultados = DB::select("
+        SELECT DISTINCT poblacion.INTERNO, poblacion.PAB,buscar_pabellon.detalles
+        FROM poblacion
+        INNER JOIN buscar_pabellon 
+            ON poblacion.INTERNO LIKE CONCAT('%', buscar_pabellon.buscar, '%')    
+        ORDER BY poblacion.PAB
+    ");
 
+    return response()->json(['resultados' => $resultados], 200, [], JSON_PRETTY_PRINT);
+})->name('ver-consulta');
+
+Route::get('/ejecutar-consulta', function () {
+    DB::select("INSERT INTO buscar_pabellones_result (interno, pabellon)
+        SELECT DISTINCT poblacion.INTERNO, poblacion.PAB
+        FROM poblacion
+        INNER JOIN buscar_pabellon 
+            ON poblacion.INTERNO LIKE CONCAT('%', buscar_pabellon.buscar, '%')    
+        ORDER BY poblacion.PAB
+    ");
+
+return redirect('/admin/buscar-pabellones-result');
+   
+})->name('ejecutar-consulta');
 
 Route::get('/tabla_para_elegir_interno_grilla',
 function () {

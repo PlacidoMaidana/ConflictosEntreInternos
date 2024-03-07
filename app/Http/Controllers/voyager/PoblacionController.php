@@ -1,6 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Http\Controllers;
+//namespace TCG\Voyager\Http\Controllers;
+namespace App\Http\Controllers\Voyager;
+
+use App\Models\poblacion;
+use App\Models\buscar_pabellones;
+use App\BuscarPabellonesResult;
 
 use Exception;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -15,10 +20,35 @@ use TCG\Voyager\Events\BreadDataUpdated;
 use TCG\Voyager\Events\BreadImagesDeleted;
 use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Http\Controllers\Traits\BreadRelationshipParser;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Imports\BuscarPabellonImport;
 
-class VoyagerBaseController extends Controller
+class PoblacionController extends \TCG\Voyager\Http\Controllers\VoyagerBaseController
 {
     use BreadRelationshipParser;
+
+    public function mostrarVistaImportacion()
+    {
+        return view('vendor.voyager.poblacion.importarExcel');
+    }
+    public function importarDesdeExcel(Request $request)
+    {
+        // Validación del archivo
+        $request->validate([
+            'archivo' => 'required|mimes:xlsx,xls',
+        ]);
+
+        // Obtiene el archivo del formulario
+        $archivo = $request->file('archivo');
+
+        // Importa los datos desde el archivo Excel usando la clase de importación
+        Excel::import(new BuscarPabellonImport, $archivo);
+
+        return redirect()->back()->with('success', 'Datos importados exitosamente.');
+    }
+
+
+
 
     //***************************************
     //               ____
@@ -34,6 +64,7 @@ class VoyagerBaseController extends Controller
 
     public function index(Request $request)
     {
+
         // GET THE SLUG, ex. 'posts', 'pages', etc.
         $slug = $this->getSlug($request);
 
@@ -1006,4 +1037,22 @@ class VoyagerBaseController extends Controller
     {
         return in_array($details->label, app($details->model)->additional_attributes ?? []);
     }
+
+
+    //***************************************
+    //                ______
+    //               |  ____|
+    //               | |__
+    //               |  __|
+    //               | |____
+    //               |______|
+    //
+    //  Edit an item of our Data Type BR(E)AD
+    //
+    //****************************************
+
+
+
+
+
 }
