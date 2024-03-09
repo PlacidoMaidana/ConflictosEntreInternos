@@ -117,3 +117,21 @@ Route::get('/s_interno2',[App\Http\Controllers\voyager\VoyagerInternosController
 
 
 //   [InternosController::class, 'index']
+
+/*
+|--------------------------------------------------------------------------
+| Estadisticas
+|--------------------------------------------------------------------------
+|
+| SE REQUIERE ESTADISTICAS DE INGRESO DE INTERNOS Y HABEAS CORPUS
+|
+*/
+
+Route::get('/estadisticas_ingreso/', [App\Http\Controllers\EstadisticasController::class, 'estadisticas_de_ingreso']);
+Route::get('/obtenerDatosIngreso/{fecha_inicio}/{fecha_fin}', [App\Http\Controllers\EstadisticasController::class, 'obtenerDatosIngreso']);
+Route::get('/Informe_ingresosExport/{fecha_inicio}/{fecha_fin}', [App\Http\Controllers\EstadisticasController::class, 'export_ingresos']);
+
+Route::get('/estadisticas_habeas/', [App\Http\Controllers\EstadisticasController::class, 'estadisticas_de_habeas']);
+Route::get('/obtenerDatosHabeas/{fecha_inicio}/{fecha_fin}', [App\Http\Controllers\EstadisticasController::class, 'obtenerDatosHabeas']);
+Route::get('/Informe_HabeasExport/{fecha_inicio}/{fecha_fin}', [App\Http\Controllers\EstadisticasController::class, 'export_habeas']);
+

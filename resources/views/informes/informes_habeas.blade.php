@@ -28,11 +28,13 @@
             <button type="button" id="ver ingresos" onclick="excelExport()" class="btn btn-sm btn-primary">Excel</button>
         </div>
     </div>
+    <h1>REPORTE DE HABEAS CORPUS</h1>
     <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:60%">
         <thead>
             <tr>
-                <th>mes</th>
-                <th>total</th>
+                <th>Seccion</th>
+                <th>Mes</th>
+                <th>Total</th>
             </tr>
         </thead>
     </table>
@@ -62,7 +64,7 @@
         function filtrar() {
         
 
-            var filtro = "{{ url('/obtenerDatosIngreso/') }}" + "/" + $("#fecha_desde").val() + '/' + $("#fecha_hasta").val();
+            var filtro = "{{ url('/obtenerDatosHabeas/') }}" + "/" + $("#fecha_desde").val() + '/' + $("#fecha_hasta").val();
             console.log(filtro);
 
             $('#example').DataTable().destroy();
@@ -71,7 +73,13 @@
                 "ajax": filtro,
                 "paging": true,
                 "searching": true,
-                "columns": [{
+                "columns": [
+                  {
+                        data: 'seccion',
+                        name: 'seccion',
+                        width: '15%'
+                    },
+                  {
                         data: 'mes',
                         name: 'mes',
                         width: '15%'
