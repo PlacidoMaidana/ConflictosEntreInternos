@@ -4,7 +4,7 @@ namespace App\Exports;
 use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\FromCollection;
 
-class Informe_ingresosExport implements FromCollection
+class Informe_habeasExport implements FromCollection
 {
     public $desde;
     public $hasta;
@@ -13,26 +13,25 @@ class Informe_ingresosExport implements FromCollection
     {
         // Aquí colocamos la lógica para obtener los datos de ingresos de internos por mes
        // return Interno::
-     $estadistica=  DB::table('internos')
-       ->select([
-           DB::raw('DATE_FORMAT(fecha_de_ingreso, "%Y-%m") as mes'),
-           DB::raw('COUNT(*) as total'),
-       ])
-       ->whereBetween('fecha_de_ingreso', [$this->desde, $this->hasta])
-       ->groupByRaw('DATE_FORMAT(fecha_de_ingreso, "%Y-%m")')
-            ->get();
+       $habeasCorpusPorSeccion = DB::table('habeas_corpus')
+       ->join('secciones', 'habeas_corpus.seccion', '=', 'secciones.id')
+       ->selectRaw('secciones.nombre, DATE_FORMAT(habeas_corpus.created_at, "%Y-%m") as mes, count(*) as total')
+       ->whereBetween('habeas_corpus.created_at', [$this->desde, $this->hasta])
+       ->groupBy('secciones.nombre', DB::raw('DATE_FORMAT(habeas_corpus.created_at, "%Y-%m")'))
+       ->get();
 
 
               // Agregar el título como la primera fila en la colección
-        $estadistica->prepend($this->getColumnHeaders());
+        $habeasCorpusPorSeccion->prepend($this->getColumnHeaders());
 
-        return $estadistica;
+        return $habeasCorpusPorSeccion;
     }
 
      // Método para obtener los títulos de las columnas
      private function getColumnHeaders(): array
      {
          return [
+             'Seccion',
              'Mes',
              'Cantidad',
              

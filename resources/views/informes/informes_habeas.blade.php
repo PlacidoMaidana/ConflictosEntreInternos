@@ -96,7 +96,7 @@
 
     <script>
         function excelExport() {
-            window.location.href = '/Informe_ingresosExport/' + $("#fecha_desde").val() + '/' + $("#fecha_hasta")
+            window.location.href = '/Informe_habeasExport/' + $("#fecha_desde").val() + '/' + $("#fecha_hasta")
                 .val();
         }
     </script>

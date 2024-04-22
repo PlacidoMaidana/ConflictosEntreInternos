@@ -6,7 +6,7 @@ use App\Audiencia;
 use Illuminate\Support\Facades\Route;
 use Yajra\Datatables\Facades\Datatables;
 use Illuminate\Support\Facades\DB;
-
+use App\Http\Controllers\BoletaDeBajadaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -133,5 +133,15 @@ Route::get('/Informe_ingresosExport/{fecha_inicio}/{fecha_fin}', [App\Http\Contr
 
 Route::get('/estadisticas_habeas/', [App\Http\Controllers\EstadisticasController::class, 'estadisticas_de_habeas']);
 Route::get('/obtenerDatosHabeas/{fecha_inicio}/{fecha_fin}', [App\Http\Controllers\EstadisticasController::class, 'obtenerDatosHabeas']);
-Route::get('/Informe_HabeasExport/{fecha_inicio}/{fecha_fin}', [App\Http\Controllers\EstadisticasController::class, 'export_habeas']);
+Route::get('/Informe_habeasExport/{fecha_inicio}/{fecha_fin}', [App\Http\Controllers\EstadisticasController::class, 'export_habeas']);
 
+/*
+|--------------------------------------------------------------------------
+| Boletas de bajada y audiencias de videollamada
+|--------------------------------------------------------------------------
+|
+| 
+|
+*/
+
+Route::post('/generar_informe', [BoletaDeBajadaController::class, 'generarInforme'])->name('generar.informe');

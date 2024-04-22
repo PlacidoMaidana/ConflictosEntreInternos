@@ -13,7 +13,7 @@ class Interno extends Model
 
 
      // Define el evento de guardado para crear o actualizar el campo apellido_y_nombre
-     protected static function boot()
+    /* protected static function boot()
      {
          parent::boot();
  
@@ -21,5 +21,5 @@ class Interno extends Model
              // Concatena el apellido y el nombre y guarda el resultado en el campo apellido_y_nombre
              $interno->apellido_y_nombre = $interno->apellido . ', ' . $interno->nombre;
          });
-     }
+     }*/
 }

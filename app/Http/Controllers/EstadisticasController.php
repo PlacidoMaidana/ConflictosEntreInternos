@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 use App\Exports\Informe_ingresosExport;
+use App\Exports\Informe_habeasExport;
 use Maatwebsite\Excel\Facades\Excel;
 
 class EstadisticasController extends Controller
@@ -89,10 +90,10 @@ $habeasCorpusPorSeccion = datatables()->of(DB::table( DB::table('habeas_corpus')
 
 public function export_habeas($desde,$hasta) 
 {
-$aa = new Informe_ingresosExport();
+$aa = new Informe_habeasExport();
 $aa->desde=$desde;
 $aa->hasta=$hasta;
-return Excel::download($aa, 'Reporte de ingresos.xlsx');
+return Excel::download($aa, 'Reporte de habeas corpus.xlsx');
 // dd($aa)  ;
 
 } 
