@@ -83,11 +83,35 @@
                             </form>
                         @endif
 
-{{-- botones para manejar los registro --}}
 
+                        {{-- Formulario para campos adicionales --}}
+                        <form id="additional-fields-form">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <input type="text" id="inputDia" class="form-control" placeholder="Día">
+                                </div>
+                                <div class="col-md-2">
+                                    <input type="text" id="inputHora" class="form-control" placeholder="Hora">
+                                </div>
+                                <div class="col-md-2">
+                                    <input type="text" id="inputTribunal" class="form-control" placeholder="Tribunal">
+                                </div>
+                                <div class="col-md-2">
+                                    <button type="button" id="mostrarSeleccionados"
+                                        class="btn btn-primary">Seleccionar</button>
+                                </div>
+                                <div class="col-md-2">
+                                    <button type="button" id="enviarInforme" class="btn btn-primary">Boletas</button>
+                                </div>
+                                <p id="contadorSeleccionados">0</p> <!-- Añadir este elemento para mostrar el contador -->
+                            </div>
+                        </form>
+
+                        {{-- botones para manejar los registro --}}
+{{-- 
                         <button id="mostrarSeleccionados">Seleccionar</button>
                         <button id="enviarInforme" class="btn btn-primary">Boletas</button>
-
+ --}}
 
 
                         <div class="table-responsive">
@@ -442,77 +466,101 @@
         });
     </script>
 
-<script>
-    // Variable global para almacenar los registros seleccionados
-    var informe = [];
+    <script>
+        // Variable global para almacenar los registros seleccionados
+        var informe = [];
 
-    // Espera a que el DOM esté cargado
-    document.addEventListener("DOMContentLoaded", function() {
-        // Obtiene el botón de mostrar seleccionados
-        var btnMostrarSeleccionados = document.getElementById('mostrarSeleccionados');
+        // Espera a que el DOM esté cargado
+        document.addEventListener("DOMContentLoaded", function() {
+            // Obtiene el botón de mostrar seleccionados
+            var btnMostrarSeleccionados = document.getElementById('mostrarSeleccionados');
 
-        // Añade un evento de clic al botón
-        btnMostrarSeleccionados.addEventListener('click', function() {
-            // Obtiene todos los checkboxes seleccionados
-            var checkboxesSeleccionados = document.querySelectorAll('input[name="row_id"]:checked');
+            // Añade un evento de clic al botón
+            btnMostrarSeleccionados.addEventListener('click', function() {
+                // Obtiene todos los checkboxes seleccionados
+                var checkboxesSeleccionados = document.querySelectorAll('input[name="row_id"]:checked');
 
-            // Itera sobre cada checkbox seleccionado
-            checkboxesSeleccionados.forEach(function(checkbox) {
-                // Obtiene el nombre y el pabellón del registro asociado al checkbox
-                var nombre = checkbox.parentNode.parentNode.querySelector('td:nth-child(2)').innerText;
-                var pabellon = checkbox.parentNode.parentNode.querySelector('td:nth-child(3)').innerText;
+                // Obtiene los valores de día, hora y tribunal
+                var dia2 = document.getElementById('inputDia').value;
+                var hora = document.getElementById('inputHora').value;
+                var tribunal = document.getElementById('inputTribunal').value;
+                // Itera sobre cada checkbox seleccionado
+                checkboxesSeleccionados.forEach(function(checkbox) {
+                    // Obtiene el nombre y el pabellón del registro asociado al checkbox
+                    var nombre = checkbox.parentNode.parentNode.querySelector('td:nth-child(2)')
+                        .innerText;
+                    var pabellon = checkbox.parentNode.parentNode.querySelector('td:nth-child(3)')
+                        .innerText;
+                    var lpu_nro = checkbox.parentNode.parentNode.querySelector('td:nth-child(4)')
+                        .innerText;
+                    
 
-                // Obtiene la fecha actual
-                var today = new Date();
-                // Obtiene el día, mes y año
-                var dia = today.getDate();
-                var mes = today.getMonth() + 1; // Los meses van de 0 a 11, por lo que sumamos 1
-                var anio = today.getFullYear();
-                // Formatea la fecha en el formato deseado (dd/mm/aaaa)
-                var fechaFormateada = ('0' + dia).slice(-2) + '/' + ('0' + mes).slice(-2) + '/' + anio;
+                    // Obtiene la fecha actual
+                    var today = new Date();
+                    // Obtiene el día, mes y año
+                    var dia = today.getDate();
+                    var mes = today.getMonth() + 1; // Los meses van de 0 a 11, por lo que sumamos 1
+                    var anio = today.getFullYear();
+                    // Formatea la fecha en el formato deseado (dd/mm/aaaa)
+                    //var fechaFormateada = ('0' + dia).slice(-2) + '/' + ('0' + mes).slice(-2) +
+                    //    '/' + anio;
 
-                // Crea un objeto con la información del registro
-                var registro = {
-                    nombre: nombre,
-                    pabellon: pabellon,
-                    fecha: fechaFormateada
-                };
+                    var fechaFormateada = '/' + ('0' + mes).slice(-2) +
+                        '/' + anio;
+                    // Crea un objeto con la información del registro
+                    var registro = {
+                        nombre: nombre,
+                        pabellon: pabellon,
+                        fecha: fechaFormateada,
+                        dia: dia2,
+                        hora: hora,
+                        tribunal: tribunal,
+                        lpu_nro:lpu_nro
+                    };
 
-                // Agrega el registro a la lista de informe
-                informe.push(registro);
+                    // Agrega el registro a la lista de informe
+                    informe.push(registro);
+                });
+
+                // Actualiza el contador de registros seleccionados
+                document.getElementById('contadorSeleccionados').innerText = informe.length;
             });
 
-            // Actualiza el contador de registros seleccionados
-            document.getElementById('contadorSeleccionados').innerText = informe.length;
+            // Evento para enviar los registros al controlador
+            document.getElementById('enviarInforme').addEventListener('click', function() {
+
+                // Muestra el nombre y pabellón en la consola
+                informe.forEach(function(registro) {
+                    console.log("Nombre: " + registro.nombre + ", Pabellón: " + registro.pabellon);
+                });
+
+
+
+                // Crea un formulario dinámico
+                var form = document.createElement('form');
+                form.method = 'POST';
+                form.action = '/generar_informe'; // Ajusta la URL del controlador según tu ruta
+                // Agrega el token CSRF al formulario
+                var csrfToken = document.querySelector('meta[name="csrf-token"]').content;
+                var inputToken = document.createElement('input');
+                inputToken.type = 'hidden';
+                inputToken.name = '_token';
+                inputToken.value = csrfToken;
+                form.appendChild(inputToken);
+
+                // Crea un campo oculto en el formulario para enviar el informe al controlador
+                var inputInforme = document.createElement('input');
+                inputInforme.type = 'hidden';
+                inputInforme.name = 'informe';
+                inputInforme.value = JSON.stringify(informe);
+                form.appendChild(inputInforme);
+
+                // Agrega el formulario al cuerpo del documento y envíalo
+                document.body.appendChild(form);
+                form.submit();
+            });
         });
-
-        // Evento para enviar los registros al controlador
-        document.getElementById('enviarInforme').addEventListener('click', function() {
-            // Crea un formulario dinámico
-            var form = document.createElement('form');
-            form.method = 'POST';
-            form.action = '/generar_informe'; // Ajusta la URL del controlador según tu ruta
-            // Agrega el token CSRF al formulario
-            var csrfToken = document.querySelector('meta[name="csrf-token"]').content;
-            var inputToken = document.createElement('input');
-            inputToken.type = 'hidden';
-            inputToken.name = '_token';
-            inputToken.value = csrfToken;
-            form.appendChild(inputToken);
-
-            // Crea un campo oculto en el formulario para enviar el informe al controlador
-            var inputInforme = document.createElement('input');
-            inputInforme.type = 'hidden';
-            inputInforme.name = 'informe';
-            inputInforme.value = JSON.stringify(informe);
-            form.appendChild(inputInforme);
-
-            // Agrega el formulario al cuerpo del documento y envíalo
-            document.body.appendChild(form);
-            form.submit();
-        });
-    });
-</script>
+    </script>
 
 
 

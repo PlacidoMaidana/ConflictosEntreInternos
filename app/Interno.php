@@ -22,4 +22,8 @@ class Interno extends Model
              $interno->apellido_y_nombre = $interno->apellido . ', ' . $interno->nombre;
          });
      }*/
+
+    
 }
+
+
