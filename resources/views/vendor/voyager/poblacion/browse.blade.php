@@ -56,7 +56,7 @@
                                     <div class="col-2">
                                         <select id="search_key" name="key">
                                             @foreach($searchNames as $key => $name)
-                                                <option value="{{ $key }}" @if($search->key == $key || (empty($search->key) && $key == $defaultSearchKey)) selected @endif>{{ $name }}</option>
+                                                <option value="{{ $key }}" & $key == $defaultSearchKey)) selected @endif>{{ $name }}</option>
                                             @endforeach
                                         </select>
                                     </div>
